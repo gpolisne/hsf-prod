@@ -331,6 +331,14 @@
   overflow: hidden;
 }
 
+/* The slot div has no size of its own, so it must be told to
+   fill the frame. Without this the iframe falls back to its
+   default 300x150 and sits in the corner. */
+#lightbox-slot {
+  position: absolute;
+  inset: 0;
+}
+
 .lightbox-frame iframe {
   width: 100%;
   height: 100%;
