@@ -1,0 +1,4167 @@
+{
+  "_README": [
+    "HSF VOTER GUIDE - DATA FILE",
+    "",
+    "GENERATED FILE. DO NOT EDIT BY HAND. Your changes will be overwritten.",
+    "",
+    "Config and legal copy   -> edit data.base.json",
+    "Races, candidates, orgs -> edit the Google Sheet, then run build_data.py"
+  ],
+  "settings": {
+    "guide_name": "HSF Voter Guide",
+    "tagline": "Hold the Line. Seize New Ground. Fight Like Hell.",
+    "state": "Arizona",
+    "cycle": "2026",
+    "publisher_name": "Hold Seize Fight",
+    "paid_for_by": "Paid for by Hold Seize Fight. With 0% from out-of-state contributors. Not Authorized by a Candidate.",
+    "contact_email": "hsfvote@gmail.com",
+    "website": "https://hsf.vote",
+    "last_updated": "2026-09-13",
+    "methodology_note": "Hold Seize Fight selects candidates based on incumbents or candidates for office who embrace justice, democracy, and equality. Entries are researched from campaign materials, public records, and endorsements from allied organizations, then written and reviewed by volunteers before publication. To suggest a correction or a candidate we've missed, write to hsfvote@gmail.com.",
+    "election_dates": {
+      "primary": "",
+      "general": "November 3, 2026",
+      "voter_reg_deadline_general": "October 5, 2026 at 11:59pm"
+    },
+    "voter_tools": {
+      "check_registration_url": "https://my.arizona.vote/",
+      "register_url": "https://servicearizona.com/VoterRegistration/selectLanguage",
+      "youtube_url": "https://www.youtube.com/@hsfvoter",
+      "find_polling_place_url": ""
+    }
+  },
+  "propositions": {
+    "intro": "All eight measures on this year's ballot were referred by the legislature, not by citizen petition. Hold Seize Fight recommends a NO vote on every one.",
+    "items": [
+      {
+        "number": "141",
+        "title": "Ban on vehicle-miles-traveled taxes",
+        "recommendation": "NO",
+        "summary": "Writes a transportation funding ban into the Constitution, cutting off road and infrastructure revenue and leaving no room to adapt as needs change."
+      },
+      {
+        "number": "142",
+        "title": "Restrictions on public institution programs",
+        "recommendation": "NO",
+        "summary": "Bars public schools from any policy referencing race, gender, or sexual orientation, putting lawful mentoring, outreach, and student support programs at risk."
+      },
+      {
+        "number": "144",
+        "title": "Voter ID and proof of citizenship requirements",
+        "recommendation": "NO",
+        "summary": "Requires photo ID and proof of citizenship for every ballot, including mail ballots, forcing Arizonans to file ID paperwork with the government at every election."
+      },
+      {
+        "number": "316",
+        "title": "Cap on local grocery tax",
+        "recommendation": "NO",
+        "summary": "Strips local control over taxes and hands it to the state, hitting rural and smaller communities hardest and threatening libraries, parks, and basic services."
+      },
+      {
+        "number": "317",
+        "title": "Drug cartels as terrorist organizations",
+        "recommendation": "NO",
+        "summary": "A symbolic designation with no enforcement mechanism and no funding to carry it out."
+      },
+      {
+        "number": "318",
+        "title": "Student athletics and facility requirements",
+        "recommendation": "NO",
+        "summary": "A blanket sports ban written by politicians that treats kindergarteners like college athletes and exposes school teams to lawsuits."
+      },
+      {
+        "number": "319",
+        "title": "Photo-enforcement voter approval",
+        "recommendation": "NO",
+        "summary": "Blocks local governments from using red-light cameras and other photo enforcement that reduce traffic deaths."
+      },
+      {
+        "number": "320",
+        "title": "Legislative control of school budgets",
+        "recommendation": "NO",
+        "summary": "Takes budget decisions away from local schools and cuts funding for districts that miss an arbitrary spending threshold set by a state appointee."
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "hold_the_line",
+      "label_lead": "HOLD",
+      "label_rest": "THE LINE",
+      "blurb": "Incumbents in office who are doing the work. Defend these seats.",
+      "applies_to": "entries"
+    },
+    {
+      "id": "seize_new_ground",
+      "label_lead": "SEIZE",
+      "label_rest": "NEW GROUND",
+      "blurb": "Candidates committed to going further than the seat's current occupant.",
+      "applies_to": "entries"
+    },
+    {
+      "id": "fight_like_hell",
+      "label_lead": "FIGHT",
+      "label_rest": "LIKE HELL",
+      "blurb": "Organizations on the front lines. Show up, give, volunteer.",
+      "applies_to": "organizations"
+    }
+  ],
+  "counties": [
+    {
+      "id": "apache",
+      "name": "Apache County",
+      "seat": "St. Johns"
+    },
+    {
+      "id": "cochise",
+      "name": "Cochise County",
+      "seat": "Bisbee"
+    },
+    {
+      "id": "coconino",
+      "name": "Coconino County",
+      "seat": "Flagstaff"
+    },
+    {
+      "id": "gila",
+      "name": "Gila County",
+      "seat": "Globe"
+    },
+    {
+      "id": "graham",
+      "name": "Graham County",
+      "seat": "Safford"
+    },
+    {
+      "id": "greenlee",
+      "name": "Greenlee County",
+      "seat": "Clifton"
+    },
+    {
+      "id": "la_paz",
+      "name": "La Paz County",
+      "seat": "Parker"
+    },
+    {
+      "id": "maricopa",
+      "name": "Maricopa County",
+      "seat": "Phoenix"
+    },
+    {
+      "id": "mohave",
+      "name": "Mohave County",
+      "seat": "Kingman"
+    },
+    {
+      "id": "navajo",
+      "name": "Navajo County",
+      "seat": "Holbrook"
+    },
+    {
+      "id": "pima",
+      "name": "Pima County",
+      "seat": "Tucson"
+    },
+    {
+      "id": "pinal",
+      "name": "Pinal County",
+      "seat": "Florence"
+    },
+    {
+      "id": "santa_cruz",
+      "name": "Santa Cruz County",
+      "seat": "Nogales"
+    },
+    {
+      "id": "yavapai",
+      "name": "Yavapai County",
+      "seat": "Prescott"
+    },
+    {
+      "id": "yuma",
+      "name": "Yuma County",
+      "seat": "Yuma"
+    }
+  ],
+  "levels": [
+    {
+      "id": "federal",
+      "label": "Federal"
+    },
+    {
+      "id": "state",
+      "label": "State"
+    }
+  ],
+  "theme": {
+    "navy_dark": "#12253C",
+    "navy": "#1B3A5C",
+    "orange": "#E0522C",
+    "gold": "#F5C518",
+    "paper": "#F7F4EC"
+  },
+  "races": [
+    {
+      "id": "race-us-house-01",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 1",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 1010
+    },
+    {
+      "id": "race-us-house-02",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 2",
+      "counties": [
+        "coconino",
+        "apache",
+        "navajo",
+        "gila",
+        "yavapai",
+        "graham",
+        "mohave",
+        "pinal",
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Verify district boundaries and county coverage against current maps.",
+      "rank": 1020
+    },
+    {
+      "id": "race-us-house-03",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 3",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 1030
+    },
+    {
+      "id": "race-us-house-04",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 4",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 1040
+    },
+    {
+      "id": "race-us-house-05",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 5",
+      "counties": [
+        "maricopa",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map. Believed to include part of Pinal.",
+      "rank": 1050
+    },
+    {
+      "id": "race-us-house-06",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 6",
+      "counties": [
+        "pima",
+        "cochise",
+        "graham",
+        "greenlee",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "Spans more than one county - both are listed so it appears on both filters.",
+      "rank": 1060
+    },
+    {
+      "id": "race-us-house-07",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 7",
+      "counties": [
+        "pima",
+        "cochise",
+        "santa_cruz",
+        "yuma",
+        "pinal",
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "",
+      "rank": 1070
+    },
+    {
+      "id": "race-us-house-08",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 8",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 1080
+    },
+    {
+      "id": "race-us-house-09",
+      "level": "federal",
+      "office": "U.S. House of Representatives",
+      "district": "District 9",
+      "counties": [
+        "mohave",
+        "la_paz",
+        "yuma",
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map. Large western district, county list is a best guess.",
+      "rank": 1090
+    },
+    {
+      "id": "race-governor",
+      "level": "state",
+      "office": "Governor",
+      "district": null,
+      "counties": [
+        "apache",
+        "cochise",
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "Statewide race - appears on every county ballot.",
+      "rank": 2010
+    },
+    {
+      "id": "race-sos",
+      "level": "state",
+      "office": "Secretary of State",
+      "district": null,
+      "counties": [
+        "apache",
+        "cochise",
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "Chief elections officer for the state.",
+      "rank": 2030
+    },
+    {
+      "id": "race-ag",
+      "level": "state",
+      "office": "Attorney General",
+      "district": null,
+      "counties": [
+        "apache",
+        "cochise",
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "",
+      "rank": 2040
+    },
+    {
+      "id": "race-treasurer",
+      "level": "state",
+      "office": "State Treasurer",
+      "district": null,
+      "counties": [
+        "apache",
+        "cochise",
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "Statewide race, appears on every county ballot.",
+      "rank": 2050
+    },
+    {
+      "id": "race-superintendent",
+      "level": "state",
+      "office": "Superintendent of Public Instruction",
+      "district": null,
+      "counties": [
+        "apache",
+        "cochise",
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "Statewide race - appears on every county ballot.",
+      "rank": 2060
+    },
+    {
+      "id": "race-mine-inspector",
+      "level": "state",
+      "office": "State Mine Inspector",
+      "district": null,
+      "counties": [
+        "apache",
+        "cochise",
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "Statewide race - appears on every county ballot.",
+      "rank": 2070
+    },
+    {
+      "id": "race-corp-comm",
+      "level": "state",
+      "office": "Corporation Commission",
+      "district": null,
+      "counties": [
+        "apache",
+        "cochise",
+        "coconino",
+        "gila",
+        "graham",
+        "greenlee",
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "navajo",
+        "pima",
+        "pinal",
+        "santa_cruz",
+        "yavapai",
+        "yuma"
+      ],
+      "seats_open": 2,
+      "notes": "Regulates utilities. Multi-seat race - confirm how many seats are up this cycle.",
+      "rank": 2080
+    },
+    {
+      "id": "race-ld01-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 1",
+      "counties": [
+        "yavapai",
+        "coconino"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. Coconino portion is one precinct covering Sedona.",
+      "rank": 3010
+    },
+    {
+      "id": "race-ld01-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 1",
+      "counties": [
+        "yavapai",
+        "coconino"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3011
+    },
+    {
+      "id": "race-ld02-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 2",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 3020
+    },
+    {
+      "id": "race-ld02-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 2",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Each legislative district elects two House members. Voters may select two.",
+      "rank": 3021
+    },
+    {
+      "id": "race-ld03-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 3",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3030
+    },
+    {
+      "id": "race-ld03-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 3",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3031
+    },
+    {
+      "id": "race-ld04-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 4",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3040
+    },
+    {
+      "id": "race-ld04-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 4",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open. This guide lists two candidates for this district.",
+      "rank": 3041
+    },
+    {
+      "id": "race-ld05-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 5",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3050
+    },
+    {
+      "id": "race-ld05-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 5",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3051
+    },
+    {
+      "id": "race-ld06-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 6",
+      "counties": [
+        "apache",
+        "coconino",
+        "gila",
+        "graham",
+        "mohave",
+        "navajo",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "All of Apache County plus sections of six others. Drawn as a majority Native American district.",
+      "rank": 3060
+    },
+    {
+      "id": "race-ld06-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 6",
+      "counties": [
+        "apache",
+        "coconino",
+        "gila",
+        "graham",
+        "mohave",
+        "navajo",
+        "pinal"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. All of Apache County plus sections of six others. Corrected against AIRC 2022 map.",
+      "rank": 3061
+    },
+    {
+      "id": "race-ld07-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 7",
+      "counties": [
+        "coconino",
+        "gila",
+        "navajo",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. Spans four counties.",
+      "rank": 3070
+    },
+    {
+      "id": "race-ld07-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 7",
+      "counties": [
+        "coconino",
+        "gila",
+        "navajo",
+        "pinal"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Spans four counties.",
+      "rank": 3071
+    },
+    {
+      "id": "race-ld08-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 8",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3080
+    },
+    {
+      "id": "race-ld08-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 8",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3081
+    },
+    {
+      "id": "race-ld09-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 9",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 3090
+    },
+    {
+      "id": "race-ld09-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 9",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "",
+      "rank": 3091
+    },
+    {
+      "id": "race-ld10-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 10",
+      "counties": [
+        "maricopa",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. Pinal portion covers Apache Junction.",
+      "rank": 3100
+    },
+    {
+      "id": "race-ld10-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 10",
+      "counties": [
+        "maricopa",
+        "pinal"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Pinal portion covers Apache Junction.",
+      "rank": 3101
+    },
+    {
+      "id": "race-ld11-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 11",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3110
+    },
+    {
+      "id": "race-ld11-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 11",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3111
+    },
+    {
+      "id": "race-ld12-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 12",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3120
+    },
+    {
+      "id": "race-ld12-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 12",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3121
+    },
+    {
+      "id": "race-ld13-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 13",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All 45 precincts are in Maricopa.",
+      "rank": 3130
+    },
+    {
+      "id": "race-ld13-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 13",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. All 45 precincts are in Maricopa.",
+      "rank": 3131
+    },
+    {
+      "id": "race-ld14-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 14",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3140
+    },
+    {
+      "id": "race-ld14-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 14",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3141
+    },
+    {
+      "id": "race-ld15-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 15",
+      "counties": [
+        "maricopa",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. Substantial Pinal share, San Tan Valley area.",
+      "rank": 3150
+    },
+    {
+      "id": "race-ld15-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 15",
+      "counties": [
+        "maricopa",
+        "pinal"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Substantial Pinal share, San Tan Valley area.",
+      "rank": 3151
+    },
+    {
+      "id": "race-ld16-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 16",
+      "counties": [
+        "maricopa",
+        "pima",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "Corrected against AIRC 2022 map. Most precincts are in Pinal County. Highly competitive district.",
+      "rank": 3160
+    },
+    {
+      "id": "race-ld16-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 16",
+      "counties": [
+        "maricopa",
+        "pima",
+        "pinal"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Most precincts are in Pinal County. Highly competitive district.",
+      "rank": 3161
+    },
+    {
+      "id": "race-ld17-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 17",
+      "counties": [
+        "pima",
+        "pinal"
+      ],
+      "seats_open": 1,
+      "notes": "Corrected against AIRC 2022 map. Mostly Pima, with a small Pinal section.",
+      "rank": 3170
+    },
+    {
+      "id": "race-ld17-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 17",
+      "counties": [
+        "pima",
+        "pinal"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Mostly Pima, with a small Pinal section.",
+      "rank": 3171
+    },
+    {
+      "id": "race-ld18-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 18",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "TODO verify county coverage against current AIRC map.",
+      "rank": 3180
+    },
+    {
+      "id": "race-ld18-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 18",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 2,
+      "notes": "Each legislative district elects two House members. Voters may select two.",
+      "rank": 3181
+    },
+    {
+      "id": "race-ld19-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 19",
+      "counties": [
+        "cochise",
+        "graham",
+        "greenlee",
+        "pima",
+        "santa_cruz"
+      ],
+      "seats_open": 1,
+      "notes": "Corrected against AIRC 2022 map. All of Greenlee County plus sections of four others.",
+      "rank": 3190
+    },
+    {
+      "id": "race-ld19-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 19",
+      "counties": [
+        "cochise",
+        "graham",
+        "greenlee",
+        "pima",
+        "santa_cruz"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. All of Greenlee County plus sections of four others.",
+      "rank": 3191
+    },
+    {
+      "id": "race-ld20-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 20",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 1,
+      "notes": "Corrected against AIRC 2022 map. All 56 precincts are in Pima.",
+      "rank": 3200
+    },
+    {
+      "id": "race-ld20-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 20",
+      "counties": [
+        "pima"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. All 56 precincts are in Pima.",
+      "rank": 3201
+    },
+    {
+      "id": "race-ld21-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 21",
+      "counties": [
+        "cochise",
+        "pima",
+        "santa_cruz"
+      ],
+      "seats_open": 1,
+      "notes": "Corrected against AIRC 2022 map. Spans three southern counties.",
+      "rank": 3210
+    },
+    {
+      "id": "race-ld21-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 21",
+      "counties": [
+        "cochise",
+        "pima",
+        "santa_cruz"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Spans three southern counties.",
+      "rank": 3211
+    },
+    {
+      "id": "race-ld22-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 22",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3220
+    },
+    {
+      "id": "race-ld22-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 22",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3221
+    },
+    {
+      "id": "race-ld23-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 23",
+      "counties": [
+        "maricopa",
+        "pima",
+        "pinal",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "Corrected against AIRC 2022 map. Largest share of precincts is in Yuma. La Paz and Santa Cruz are not in this district.",
+      "rank": 3230
+    },
+    {
+      "id": "race-ld23-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 23",
+      "counties": [
+        "maricopa",
+        "pima",
+        "pinal",
+        "yuma"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Largest share of precincts is in Yuma. La Paz and Santa Cruz are not in this district.",
+      "rank": 3231
+    },
+    {
+      "id": "race-ld24-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 24",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3240
+    },
+    {
+      "id": "race-ld24-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 24",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3241
+    },
+    {
+      "id": "race-ld25-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 25",
+      "counties": [
+        "maricopa",
+        "yuma"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. Spans western Maricopa and Yuma.",
+      "rank": 3250
+    },
+    {
+      "id": "race-ld25-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 25",
+      "counties": [
+        "maricopa",
+        "yuma"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Spans western Maricopa and Yuma.",
+      "rank": 3251
+    },
+    {
+      "id": "race-ld26-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 26",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3260
+    },
+    {
+      "id": "race-ld26-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 26",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3261
+    },
+    {
+      "id": "race-ld27-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 27",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3270
+    },
+    {
+      "id": "race-ld27-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 27",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "",
+      "rank": 3271
+    },
+    {
+      "id": "race-ld28-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 28",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3280
+    },
+    {
+      "id": "race-ld28-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 28",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3281
+    },
+    {
+      "id": "race-ld29-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 29",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 1,
+      "notes": "Counties verified against AIRC 2022 map. All precincts in Maricopa.",
+      "rank": 3290
+    },
+    {
+      "id": "race-ld29-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 29",
+      "counties": [
+        "maricopa"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. Counties verified against AIRC 2022 map.",
+      "rank": 3291
+    },
+    {
+      "id": "race-ld30-senate",
+      "level": "state",
+      "office": "State Senate",
+      "district": "Legislative District 30",
+      "counties": [
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "yavapai"
+      ],
+      "seats_open": 1,
+      "notes": "All of La Paz County plus sections of Maricopa, Mohave, and Yavapai.",
+      "rank": 3300
+    },
+    {
+      "id": "race-ld30-house",
+      "level": "state",
+      "office": "State House of Representatives",
+      "district": "Legislative District 30",
+      "counties": [
+        "la_paz",
+        "maricopa",
+        "mohave",
+        "yavapai"
+      ],
+      "seats_open": 2,
+      "notes": "Two seats open, voters may select two. All of La Paz plus three partial counties.",
+      "rank": 3301
+    }
+  ],
+  "entries": [
+    {
+      "id": "entry-joanna-mendoza",
+      "category": "seize_new_ground",
+      "race_id": "race-us-house-06",
+      "name": "JoAnna Mendoza",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Proud mom, dedicated public servant, & retired U.S. Marine.",
+      "summary": "JoAnna has spent her life answering the call to serve, from defending the nation and training future military leaders to helping veterans navigate broken systems. Now she is running to represent Arizona's 6th Congressional District, bringing battle-tested leadership to Washington to fight for working families and lower the costs of food, gas, housing, and child care.",
+      "why_bullets": [
+        "Lowering Costs.",
+        "Strengthening Healthcare.",
+        "Restoring trust."
+      ],
+      "links": {
+        "website": "https://www.joannamendoza.com/",
+        "volunteer": "https://www.joannamendoza.com/get-involved/volunteer",
+        "donate": "https://secure.actblue.com/donate/web-mfc-ga"
+      },
+      "photo": "images/joanna-mendoza.jpg",
+      "photo_credit": "Emily's List",
+      "status": "published",
+      "created_by": "George A. Polisner",
+      "updated": "2026-07-28"
+    },
+    {
+      "id": "entry-katie-hobbs",
+      "category": "hold_the_line",
+      "race_id": "race-governor",
+      "name": "Katie Hobbs",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Protecting democracy in Arizona",
+      "summary": "Governor Katie Hobbs has protected all Arizonans from a corrupt and abusive federal government. During her time in office, Katie has granted tax rebates to Arizonan families, defended reporductive rights, and passed policy to protect our water. She is running for again to continue making a positive impact on the lives of of Arizonans.",
+      "why_bullets": [
+        "Protects Public Education",
+        "Fair taxation",
+        "Economic growth without harm"
+      ],
+      "links": {
+        "website": "https://katiehobbs.org/",
+        "volunteer": "https://katiehobbs.org/get-involved",
+        "donate": "https://katiehobbs.org/donate/"
+      },
+      "photo": "images/katie-hobbs.jpg",
+      "photo_credit": "Patrick T. Fallon / AFP",
+      "status": "published",
+      "created_by": "George A. Polisner",
+      "updated": "2026-07-28"
+    },
+    {
+      "id": "entry-amelia-gallitano-mendel",
+      "category": "seize_new_ground",
+      "race_id": "race-ld02-senate",
+      "name": "Dr. Amelia Gallitano-Mendel",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Tenured professor dedicated to innovative solutions",
+      "summary": "Dr. Gallitano is running to represent Arizona's 2nd Legislative District in the Senate. She runs as an advocate for Arizonan families and and seeks to lower the costs of every day life. She is commited to practical, evidence based solutions that will protect our future and bring integrity to the State Senate.",
+      "why_bullets": [
+        "Supporting Veterans",
+        "Fiscal Responsibility",
+        "Strong Schools",
+        "Safe Communities"
+      ],
+      "links": {
+        "website": "https://www.ameliaforaz.com/",
+        "volunteer": "https://www.ameliaforaz.com/volunteer-1",
+        "donate": "https://secure.actblue.com/donate/amelia-gallitano-1"
+      },
+      "photo": "images/amelia-gallitano-mendel.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "published",
+      "created_by": "George A. Polisner",
+      "updated": "2026-08-02"
+    },
+    {
+      "id": "entry-kiana-maria-sears",
+      "category": "hold_the_line",
+      "race_id": "race-ld09-senate",
+      "name": "Kiana Maria Sears",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Continuing more than 20 years of public service",
+      "summary": "As an Arizona State Senator, Kiana has been a champion for Arizonan families. She has funded nutrition programs, fought for affordable housing, and protected public education. Kiana is running to represent Arizona's 9th Legislative District in the Senate in order to continue her service.",
+      "why_bullets": [
+        "Access to educational opportunity",
+        "Access to healthcare and nutritious meals",
+        "Access to community centered, obtainable affordable housing"
+      ],
+      "links": {
+        "website": "https://searsforarizona.com/",
+        "volunteer": "N/A",
+        "donate": "https://secure.actblue.com/donate/kiana-sears-2"
+      },
+      "photo": "images/kiana-maria-sears.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "published",
+      "created_by": "George A. Polisner",
+      "updated": "2026-08-02"
+    },
+    {
+      "id": "entry-kristie-obrien",
+      "category": "seize_new_ground",
+      "race_id": "race-ld13-senate",
+      "name": "Kristie O'Brien",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Lawyer-turned-mediator committed to Arizona",
+      "summary": "Kristie has centered her life around public service. After spending time working on Capitol Hill to craft policy and staff 10 senators, she came home to Arizona and serve as a lawyer to protect people's rights. Now, she is running to represent Arizona's 13th Legislative District in the Senate so that she can work to bring common-sense solutions to the table.",
+      "why_bullets": [
+        "Affordable Arizona",
+        "Lowering Healthcare Costs",
+        "Fully Funding Schools",
+        "A Sustainable Future"
+      ],
+      "links": {
+        "website": "https://www.kristieforaz.com/",
+        "volunteer": "N/A",
+        "donate": "https://secure.actblue.com/donate/kristie-o-brien-2"
+      },
+      "photo": "images/kristie-obrien.jpeg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "published",
+      "created_by": "George A. Polisner",
+      "updated": "2026-08-02"
+    },
+    {
+      "id": "entry-elaine-aldrete",
+      "category": "seize_new_ground",
+      "race_id": "race-ld16-senate",
+      "name": "Elaine Aldrete",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Experienced community leader devoted to Arizona",
+      "summary": "Elaine has undertaken numerous projects in her community to further the lives of those around her, including starting her non-profit Teaching Life Choices and serving as a State Committee Member. She is now running for Arizona's 16th Legislative District in the Senate to pursue advocating for affordable healthcare, housing, and utilities.",
+      "why_bullets": [
+        "Healthcare",
+        "Housing",
+        "Affordability",
+        "Education"
+      ],
+      "links": {
+        "website": "https://aldrete4az.org/",
+        "volunteer": "N/A",
+        "donate": "https://secure.actblue.com/donate/elaine-aldrete-1"
+      },
+      "photo": "images/elaine-aldrete.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "published",
+      "created_by": "George A. Polisner",
+      "updated": "2026-08-02"
+    },
+    {
+      "id": "entry-rep-nancy-gutierrez",
+      "category": "hold_the_line",
+      "race_id": "race-ld18-house",
+      "name": "Rep. Nancy Gutierrez",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "A teacher's voice for Arizona!",
+      "summary": "Nancy serves as the Assistant Minority Leader in the AZ State House. She's the Ranking member on the Education Committee and is on the Appropriations Committee. She attended public school in Arizona from K-12 to earning a Bachelor of Science in Elementary Education with an emphasis in Mathematics.",
+      "why_bullets": [
+        "Public Education",
+        "Water Conservation",
+        "Healthcare"
+      ],
+      "links": {
+        "website": "https://www.nancyforaz.com/",
+        "volunteer": "N/A",
+        "donate": "https://secure.actblue.com/donate/nancyforaz24"
+      },
+      "photo": "images/rep-nancy-gutierrez.jpg",
+      "photo_credit": "From Official Campaign Website",
+      "status": "published",
+      "created_by": "George A. Polisner",
+      "updated": "2026-07-28"
+    },
+    {
+      "id": "entry-stephanie-simacek",
+      "category": "hold_the_line",
+      "race_id": "race-ld02-house",
+      "name": "Stephanie Simacek",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Mother and representative proud to advocate for all",
+      "summary": "Stephanie is passionate about public education and has advocated as a state representative for tighter control Arizona's ESA program to ensure that our schools can be properly funded. Likewise, Stephanie also recognizes the lack of basic affordability impacting Arizonans and seeks to hold corporate companies accountable. To continue her service, she is running for Arizona's 2nd Legislative District in the House.",
+      "why_bullets": [
+        "Education",
+        "Housing",
+        "Water & Environment",
+        "Reproductive Freedom"
+      ],
+      "links": {
+        "website": "https://www.simacekforaz.com/",
+        "volunteer": "https://www.mobilize.us/adlcc/?q=LD%202%20Democrats",
+        "donate": "https://secure.actblue.com/donate/simacek-for-az"
+      },
+      "photo": "images/stephanie-simacek.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "published",
+      "created_by": "George A. Polisner",
+      "updated": "2026-08-02"
+    },
+    {
+      "id": "entry-karen-gresham",
+      "category": "seize_new_ground",
+      "race_id": "race-ld04-house",
+      "name": "Karen Gresham",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Third generation Arizonan committed to public service",
+      "summary": "Karen has a background in budgeting and analyzinag data as well as in public education advocacy. She has served on Madison Elementary School District's governing board and now seeks to advocate for the needs of teachers, parents, and students on a higher policy level by running for the State House as a representative of Legislative District 4.",
+      "why_bullets": [
+        "Public Education",
+        "Healthcare",
+        "Reproductive Freedom"
+      ],
+      "links": {
+        "website": "https://www.karenforaz.com/",
+        "volunteer": "https://www.mobilize.us/ld4democrats/",
+        "donate": "https://www.karenforaz.com/donate"
+      },
+      "photo": "images/karen-gresham.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "published",
+      "created_by": "George A. Polisner",
+      "updated": "2026-08-02"
+    },
+    {
+      "id": "entry-tammy-caputi",
+      "category": "seize_new_ground",
+      "race_id": "race-ld04-house",
+      "name": "Tammy Caputi",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Experienced community leader focused on practical results",
+      "summary": "Caputi's campaign emphasizes practical leadership, integrity, and community-focused problem solving. Her priorities are centered on safer communities, economic opportunity, and responsible government. She is running for Arizona's 4th Legislative District in the house.",
+      "why_bullets": [
+        "Safer communities",
+        "Stronger local economy",
+        "Opportunities for families",
+        "Responsible leadership"
+      ],
+      "links": {
+        "website": "https://tammycaputi.com/",
+        "volunteer": "https://tammycaputi.com/volunteer",
+        "donate": "https://secure.actblue.com/donate/caputiforarizona?refcode=directory"
+      },
+      "photo": "images/tammy-caputi.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-lorena-austin",
+      "category": "hold_the_line",
+      "race_id": "race-ld09-house",
+      "name": "Lorena Austin",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Fifth-generation Arizonan and community-rooted legislator",
+      "summary": "Austin's campaign highlights deep Mesa roots and a record of community advocacy. Her focus is on strengthening public education, addressing housing costs, and protecting Arizona's long-term water future. She is running for Arizona's 9th Legislative District in the House.",
+      "why_bullets": [
+        "Public education",
+        "Affordable housing",
+        "Healthcare access",
+        "Water and climate resilience"
+      ],
+      "links": {
+        "website": "https://www.lorenaaustin.com/",
+        "volunteer": "https://docs.google.com/forms/d/e/1FAIpQLSfW9sPZHo0pwvKoaV2vGr0QKEZmMQj44Tw1_Wu0HSQMVzLLtg/viewform?usp=header",
+        "donate": "https://www.lorenaaustin.com/"
+      },
+      "photo": "images/lorena-austin.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-rockee-armstrong",
+      "category": "seize_new_ground",
+      "race_id": "race-ld13-house",
+      "name": "Rockee Armstrong",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Educator, administrator, and advocate for stronger schools",
+      "summary": "Dr. Racquel 'Rockee' Armstrong brings experience as a teacher, school administrator, and advocate for education. She is running to represent Arizona's 13th Legislative District in the House and is campaigning on stronger schools, affordable housing, and a more secure future for Arizona families.",
+      "why_bullets": [
+        "Public education",
+        "Lower costs",
+        "Affordable housing",
+        "Water and infrastructure"
+      ],
+      "links": {
+        "website": "https://rockee4az.com/",
+        "volunteer": "https://docs.google.com/forms/d/e/1FAIpQLSd4uCdltJAnoJ5_NnHGsnb5fG5uRuvFwRzauqg_8P20KpA_BA/viewform",
+        "donate": "https://rockee4az.com/"
+      },
+      "photo": "images/rockee-armstrong.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-julia-gusse",
+      "category": "seize_new_ground",
+      "race_id": "race-ld16-house",
+      "name": "Julia Gusse",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Air Force veteran and former Maricopa councilmember",
+      "summary": "Gusse has previously served in the Air Force and has local-government experience. Now, she seeks to continue her service by running in Arizona's 16th Legislative District in the House. She is committed to practical, people-first leadership focused on veterans, schools, public safety, and reducing household costs.",
+      "why_bullets": [
+        "Lower costs",
+        "Veterans",
+        "Strong schools",
+        "Safe communities"
+      ],
+      "links": {
+        "website": "https://www.juliaforarizona.com/",
+        "volunteer": "https://www.juliaforarizona.com/contact-5",
+        "donate": "https://secure.actblue.com/donate/julia-romero-gusse-1"
+      },
+      "photo": "images/julia-gusse.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-holly-lyon",
+      "category": "seize_new_ground",
+      "race_id": "race-ld17-house",
+      "name": "Holly Lyon",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Retired Air Force colonel, educator, and civic leader",
+      "summary": "Holly served 26 years in the Air Force and forged consensus on intense negotiations to save $100 million. Additionally, she has also served as an educator, technology consultant, and civic leader. Holly now runs to conitnue her service as a representative in Arizona's 17th Legislative District.",
+      "why_bullets": [
+        "Affordability",
+        "Public education",
+        "Water security",
+        "Government transparency"
+      ],
+      "links": {
+        "website": "https://www.lyonforarizona.com/",
+        "volunteer": "https://www.mobilize.us/ld17democrats/event/789523/?referring_vol=5819506&share_context=dashboard-event-details&sharer_role=2",
+        "donate": "https://secure.actblue.com/donate/holly-lyon-1"
+      },
+      "photo": "images/holly-lyon.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-deborah-howard",
+      "category": "seize_new_ground",
+      "race_id": "race-ld27-house",
+      "name": "Deborah Howard",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Public-affairs professional and longtime civic advocate",
+      "summary": "Deborah's background includes experience with both non-profit and private-sector public affairs. She has a passion for issues such as affordable living, healthcare, public education, and voting rights. Deborah has centered her campaign on accountable democracy and is running to represent Arizona's 27th Legislative District in the House.",
+      "why_bullets": [
+        "Affordability",
+        "Healthcare access",
+        "Public education",
+        "Democracy and voting rights"
+      ],
+      "links": {
+        "website": "https://www.deborahhowardaz.com/",
+        "volunteer": "https://www.deborahhowardaz.com/volunteer",
+        "donate": "https://secure.actblue.com/donate/eoq27?refcode=website&amount=100"
+      },
+      "photo": "images/deborah-howard.jpg",
+      "photo_credit": "Arizona List / WomenCount, used with permission",
+      "source": "Arizona List | 2026 General Election slate",
+      "source_url": "https://womencount.org/teams/arizona-list-2026-general-election/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-amish-shah",
+      "category": "seize_new_ground",
+      "race_id": "race-us-house-01",
+      "name": "Amish Shah",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Emergency physician and former Arizona state legislator",
+      "summary": "Dr. Amish Shah is a board-certified emergency physician and former state representative.  His public-service record centers on healthcare, education, working families, and pragmatic lawmaking, and he is now running to represent Arizona's 1st Congressional District.",
+      "why_bullets": [
+        "Healthcare access",
+        "Public education",
+        "Lower costs",
+        "Results-focused government"
+      ],
+      "links": {
+        "website": "https://amishforarizona.com/",
+        "volunteer": "https://www.amishforarizona.com/takeaction",
+        "donate": "https://secure.actblue.com/donate/amish-for-arizona-26?refcode=WebHdr"
+      },
+      "photo": "images/amish-shah.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://amishforarizona.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-jonathan-nez",
+      "category": "seize_new_ground",
+      "race_id": "race-us-house-02",
+      "name": "Jonathan Nez",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Former Navajo Nation president and rural Arizona leader",
+      "summary": "Nez grew up in northern Arizona without basic utilities and later served as Navajo Nation president, shaping a campaign focused on rural infrastructure, water, jobs, energy costs, and bipartisan problem solving.",
+      "why_bullets": [
+        "Lower costs",
+        "Water and infrastructure",
+        "Rural jobs",
+        "Bipartisan leadership"
+      ],
+      "links": {
+        "website": "https://www.jonathannezforaz.com/",
+        "volunteer": "https://www.jonathannezforaz.com/volunteer",
+        "donate": "https://secure.actblue.com/donate/nez-web?refcode=main-donate-link"
+      },
+      "photo": "images/jonathan-nez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.jonathannezforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-yassamin-ansari",
+      "category": "hold_the_line",
+      "race_id": "race-us-house-03",
+      "name": "Yassamin Ansari",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Congresswoman and former Phoenix vice mayor",
+      "summary": "Yassamin's public-service background includes both local and federal leadership, where she worked on climate action, transportation, homelessness, and affordable housing. She is now running to continue her representation of Arizona's 3rd Congressional District.",
+      "why_bullets": [
+        "Climate resilience",
+        "Affordable housing",
+        "Reproductive freedom",
+        "Economic opportunity"
+      ],
+      "links": {
+        "website": "https://yassaminforcongress.com/",
+        "volunteer": "N/A",
+        "donate": "https://secure.actblue.com/donate/yassaminansari_web"
+      },
+      "photo": "images/yassamin-ansari.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://yassaminforcongress.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-greg-stanton",
+      "category": "hold_the_line",
+      "race_id": "race-us-house-04",
+      "name": "Greg Stanton",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Former Phoenix mayor and experienced congressional lawmaker",
+      "summary": "Greg's experience comes from serving previoulsy the mayor of Phoenix and as a member of Congress. His priorities include practical results on infrastructure, household costs, education, economic growth, and public safety. Greg is eager to continue serving the State of Arizona and is running to represent Arizona's 4th Congressional District.",
+      "why_bullets": [
+        "Lower costs",
+        "Infrastructure",
+        "Public education",
+        "Public safety"
+      ],
+      "links": {
+        "website": "https://gregstanton.com/",
+        "volunteer": "https://gregstanton.com/action",
+        "donate": "https://secure.actblue.com/donate/stantonhomepage2026"
+      },
+      "photo": "images/greg-stanton.jpg",
+      "photo_credit": "U.S. House Office of Photography",
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Greg_Stanton_official_portrait_(118th_Congress)_(cropped).jpg",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-elizabeth-lee",
+      "category": "seize_new_ground",
+      "race_id": "race-us-house-05",
+      "name": "Elizabeth Lee",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Registered nurse and working-family advocate",
+      "summary": "Elizabeth experience and passions come from her background as a nurse and mother. She emphasizes affordability, reproductive healthcare, and accountability. Drawing on her background in healthcare, Elizabeth is running to represent Arizona's 5th Congressional District.",
+      "why_bullets": [
+        "Healthcare",
+        "Affordability",
+        "Reproductive freedom",
+        "Government accountability"
+      ],
+      "links": {
+        "website": "https://www.nurselee4az.com/",
+        "volunteer": "https://www.nurselee4az.com/JoinUs",
+        "donate": "https://secure.actblue.com/donate/nurselee4az"
+      },
+      "photo": "images/elizabeth-lee.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.nurselee4az.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-adelita-grijalva",
+      "category": "hold_the_line",
+      "race_id": "race-us-house-07",
+      "name": "Adelita Grijalva",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Longtime Southern Arizona public servant and community leader",
+      "summary": "Adelita draws from her deep Southern Arizona roots and years of public service as she runs to continue her representation of Arizona's 7th Congressional Distric. Her focus is on bringing people together, protecting communities, and expanding opportunity for families.",
+      "why_bullets": [
+        "Public education",
+        "Healthcare access",
+        "Working families",
+        "Community investment"
+      ],
+      "links": {
+        "website": "https://www.adelitaforcongress.com/",
+        "volunteer": "https://www.adelitaforcongress.com/",
+        "donate": "https://secure.actblue.com/donate/adelita-grijalva"
+      },
+      "photo": "images/adelita-grijalva.jpg",
+      "photo_credit": "Damien Salas, Office of the Clerk U.S.House of Representatives",
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Congresswoman_Adelita_Grijalva_Official_Portrait.jpg",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-bernadette-greene-placentia",
+      "category": "seize_new_ground",
+      "race_id": "race-us-house-08",
+      "name": "Bernadette Greene-Placentia",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Trucker, small-business owner, and working-class advocate",
+      "summary": "Bernadette is a mother, long-haul trucker, and small-business owner who has logged more than four million miles. Now, she is drawinging from firsthand experience as she runs to represent Arizona's 8th Congressional District. She is passionate about affordability, immigration, and veterans.",
+      "why_bullets": [
+        "Working families",
+        "Small business",
+        "Affordability",
+        "Transportation and infrastructure"
+      ],
+      "links": {
+        "website": "https://bgp4az.com/",
+        "volunteer": "https://bgp4az.com/join-us/#volunteer",
+        "donate": "https://secure.actblue.com/donate/bgp_website"
+      },
+      "photo": "images/bernadette-greene-placentia.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://bgp4az.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-danielle-sterbinsky",
+      "category": "seize_new_ground",
+      "race_id": "race-us-house-09",
+      "name": "Danielle Sterbinsky",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Navy veteran, working mother, and operations specialist",
+      "summary": "Dani's experience comes from serving  in the U.S. Navy aboard the USS Bainbridge and later building a career in operations. She is passionate about housing, education, and rural & community investment. Dani runs as a veteran, working mom, and Arizonan neighbor to represent Arizona's 9th Congressional District.",
+      "why_bullets": [
+        "Veterans",
+        "Working families",
+        "Government accountability",
+        "Economic opportunity"
+      ],
+      "links": {
+        "website": "https://www.sterbinskyforcongress.com/",
+        "volunteer": "https://www.sterbinskyforcongress.com/",
+        "donate": "https://www.sterbinskyforcongress.com/"
+      },
+      "photo": "images/danielle-sterbinsky.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.sterbinskyforcongress.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-adrian-fontes",
+      "category": "hold_the_line",
+      "race_id": "race-sos",
+      "name": "Adrian Fontes",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Marine veteran, attorney, and Arizona Secretary of State",
+      "summary": "Adrian is an Arizona native, Marine veteran, former prosecutor, and now serves as Arizona's current Sectretary of State. His work has focused on voter access, ballot security and transparency, and he is running to continue his service as Secretary of State.",
+      "why_bullets": [
+        "Election security",
+        "Voter access",
+        "Government transparency",
+        "Efficient public services"
+      ],
+      "links": {
+        "website": "https://electfontes.com/",
+        "volunteer": "https://secure.ngpvan.com/-NdcE1_ZKka8ngrs-zIxJQ2",
+        "donate": "https://secure.actblue.com/donate/adrianfontes?refcode=web"
+      },
+      "photo": "images/adrian-fontes.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://electfontes.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-kris-mayes",
+      "category": "hold_the_line",
+      "race_id": "race-ag",
+      "name": "Kris Mayes",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Attorney General and longtime consumer advocate",
+      "summary": "Mayes grew up in Prescott and has served as a statewide utility regulator, professor, and Arizona Attorney General. She has a record of fiercely fighting for Arizona and seeks to continue her advocacy by running to maintain her position of Attorney General.",
+      "why_bullets": [
+        "Consumer protection",
+        "Public safety",
+        "Water security",
+        "Corporate accountability"
+      ],
+      "links": {
+        "website": "https://www.krismayes.com/",
+        "volunteer": "https://secure.numero.ai/signup/Volunteer-with-Kris-Mayes-for-Arizona",
+        "donate": "https://secure.actblue.com/donate/kris-mayes-website"
+      },
+      "photo": "images/kris-mayes.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.krismayes.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-nick-mansour",
+      "category": "seize_new_ground",
+      "race_id": "race-treasurer",
+      "name": "Nick Mansour",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Entrepreneur and education leader running as a fiscal watchdog",
+      "summary": "Nick is an Arizona-raised father and entrepreneur who built a nursing school. He has a passion for eliminating waste, fraud, and government abuse. Drawing from his experiences, he now runs for the position of Arizona State Treasurer.",
+      "why_bullets": [
+        "Fiscal accountability",
+        "Education and workforce",
+        "Economic opportunity",
+        "Waste reduction"
+      ],
+      "links": {
+        "website": "https://www.mansourforarizona.com/",
+        "volunteer": "https://www.mansourforarizona.com/joinus",
+        "donate": "https://secure.actblue.com/donate/blu-nmaz-2025-em"
+      },
+      "photo": "images/nick-mansour.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.mansourforarizona.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-teresa-leyba-ruiz",
+      "category": "seize_new_ground",
+      "race_id": "race-superintendent",
+      "name": "Teresa Leyba Ruiz",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Veteran educator and former community-college president",
+      "summary": "Terry is a native Arizonan and first-generation college graduate. She brings with her 35 years of experience in education as a math teacher, administrator, and community-college president, and now she is running for Superintedent of Public Instruction to further her service of Arizona.",
+      "why_bullets": [
+        "Teacher workforce",
+        "Strong academic standards",
+        "Postsecondary pathways",
+        "Education accountability"
+      ],
+      "links": {
+        "website": "https://www.drruizforarizona.com/",
+        "volunteer": "https://forms.oneswitchboard.com/ruiz-for-az-education/volunteer",
+        "donate": "https://secure.actblue.com/donate/ruizwebsite"
+      },
+      "photo": "images/teresa-leyba-ruiz.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.drruizforarizona.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-brian-matlock",
+      "category": "seize_new_ground",
+      "race_id": "race-mine-inspector",
+      "name": "Brian Matlock",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Marine veteran, engineer, and mining-safety professional",
+      "summary": "Brian is a Marine Reserve veteran and mechanical engineer. He has earned decades of experience in mining and heavy industry, and he is dedicated to mine safety, protecting workers, and technical interprise. Drawing from his experience, he now seeks to serve Arizona's mines and mine workers by running for State Mine Inspector.",
+      "why_bullets": [
+        "Mine safety",
+        "Worker protection",
+        "Technical expertise",
+        "Responsible resource development"
+      ],
+      "links": {
+        "website": "https://www.matlockforazmi.com/",
+        "volunteer": "https://www.matlockforazmi.com/",
+        "donate": "https://secure.actblue.com/donate/brian-matlock-1"
+      },
+      "photo": "images/brian-matlock.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.matlockforazmi.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-jonathon-hill",
+      "category": "seize_new_ground",
+      "race_id": "race-corp-comm",
+      "name": "Jonathon Hill",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Consumer-focused utility and energy-policy advocate",
+      "summary": "Dr. Jonathon's experience comes from his background as a scientist and engineer. To help restore transparency and accountability of the Arizona Corporate Commision, he is running for a seat as Commissioner. His priorities are lowering utility bills, protecting Arizona's water, scrutinizing large data-center demands.",
+      "why_bullets": [
+        "Affordable utilities",
+        "Water security",
+        "Data-center oversight",
+        "Transparency"
+      ],
+      "links": {
+        "website": "https://www.votehillaz.com/",
+        "volunteer": "https://www.votehillaz.com/",
+        "donate": "https://www.votehillaz.com/"
+      },
+      "photo": "images/jonathon-hill.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.votehillaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-clara-pratte",
+      "category": "seize_new_ground",
+      "race_id": "race-corp-comm",
+      "name": "Clara Pratte",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Navajo entrepreneur and rural-infrastructure leader",
+      "summary": "Clara is a Navajo Nation member and has advised U.S. and Navajo leaders. Having grown up without access to utilities, she understands and respects the need them. Taking this passion, Clara co-founded an energy company focused on infrastructure and economic opportunity in underserved communities, and she now for for Commissioner on Arizona Corporate Commission.",
+      "why_bullets": [
+        "Lower utility costs",
+        "Rural and tribal infrastructure",
+        "Clean energy",
+        "Consumer protection"
+      ],
+      "links": {
+        "website": "https://www.claraforaz.com/",
+        "volunteer": "https://www.claraforaz.com/",
+        "donate": "https://www.claraforaz.com/"
+      },
+      "photo": "images/clara-pratte.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.claraforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-christine-dargon",
+      "category": "seize_new_ground",
+      "race_id": "race-ld01-senate",
+      "name": "Christine Dargon",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Educator, social-service professional, and rural community advocate",
+      "summary": "Dr. Christine has more than 30 years in education and social service. Now, she is running to represent Arizona's 1st Legislative District in the Senate.She is passionate about the needs of rural communities and prioritizes funding for education, water supply and quality, and common sense gun laws.",
+      "why_bullets": [
+        "Groundwater security",
+        "Public schools",
+        "Rural healthcare",
+        "Affordability"
+      ],
+      "links": {
+        "website": "https://dargonforazsenate.com/",
+        "volunteer": "https://dargonforazsenate.com/",
+        "donate": "https://secure.actblue.com/donate/christine-dargon-2?refcode=directory"
+      },
+      "photo": "images/christine-dargon.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://dargonforazsenate.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-jeff-fortney",
+      "category": "seize_new_ground",
+      "race_id": "race-ld03-senate",
+      "name": "Jeff Fortney",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Special-education teacher and school-board leader",
+      "summary": "Jeff left a long career in computer programming to become a special-education teacher and has served on the Cave Creek Unified School District governing board since 2020. His experience as a teacher and board member has fostered his passions for public education, affordability, and people's rights. Now, he is running to represent Arizona's 3rd Legislative District in the Senate.",
+      "why_bullets": [
+        "Public education",
+        "Affordable healthcare",
+        "Water management",
+        "Voting rights"
+      ],
+      "links": {
+        "website": "https://electfortney.com/",
+        "volunteer": "https://electfortney.com/things-to-do/layout-2/",
+        "donate": "https://electfortney.com/things-to-do/layout-2/"
+      },
+      "photo": "images/jeff-fortney.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://electfortney.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-aaron-lieberman",
+      "category": "seize_new_ground",
+      "race_id": "race-ld04-senate",
+      "name": "Aaron Lieberman",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Arizona entrepreneur, education innovator, and former legislator",
+      "summary": "Aaron is an Arizona native and Yale graduate. Taking his experience and resources, he founded two national early-childhood organizations that created thousands of jobs and served more than one million children. He is now running to represent Arizona's 4th Legislative in the Senate and seeks to work across the aisle to improve the lives of Arizonans.",
+      "why_bullets": [
+        "Public education",
+        "Small business",
+        "Safe neighborhoods",
+        "Results-driven government"
+      ],
+      "links": {
+        "website": "https://www.aaronforaz.com/",
+        "volunteer": "https://www.aaron4az.com/volunteer",
+        "donate": "https://secure.actblue.com/donate/aaron-lieberman-1"
+      },
+      "photo": "images/aaron-lieberman.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.aaronforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-christine-marsh",
+      "category": "seize_new_ground",
+      "race_id": "race-ld05-senate",
+      "name": "Christine Marsh",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Arizona Teacher of the Year and veteran public-school educator",
+      "summary": "Christine spent more than three decades in Arizona classrooms and was named the 2016 Arizona Teacher of the Year, and she has served previously in the Arizona Senate. Her experiences both professionally and personally have fostered a passion for public education, Arizona's economy, and addressing the opiod crisis. Christine now runs to represent Arizona's 5th Legislative District again in the Senate.",
+      "why_bullets": [
+        "Public education",
+        "Teacher support",
+        "Affordability",
+        "Practical state policy"
+      ],
+      "links": {
+        "website": "https://www.christineportermarsh.com/",
+        "volunteer": "https://www.christineportermarsh.com/volunteer",
+        "donate": "https://www.christineportermarsh.com/donate"
+      },
+      "photo": "images/christine-marsh.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.christineportermarsh.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-blair-moses",
+      "category": "seize_new_ground",
+      "race_id": "race-ld10-senate",
+      "name": "Blair Moses",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Retired attorney with healthcare and legislative-analysis experience",
+      "summary": "Blair's experience comes from being a retired attorney with a prior healthcare career. Having this intersection of perspectives, she is running to represent Arizona's 10th Legislative District in the Senate. Her priorities include constitutional rights, healthcare access, and protections for vulnerable communities.",
+      "why_bullets": [
+        "Constitutional rights",
+        "Affordability",
+        "Healthcare access",
+        "Public education"
+      ],
+      "links": {
+        "website": "https://www.blairforarizona.com/",
+        "volunteer": "https://docs.google.com/forms/d/1fRKsKhZFnEtom4w_R-AFPyvAIM7nrjfSVhkopvmU0zI/viewform?edit_requested=true",
+        "donate": ""
+      },
+      "photo": "images/blair-moses.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.blairforarizona.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-catherine-miranda",
+      "category": "hold_the_line",
+      "race_id": "race-ld11-senate",
+      "name": "Catherine Miranda",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Educator and experienced legislator with deep district roots",
+      "summary": "Catherine is native to District 11 and has a background in education as well as having served in both chambers of the Arizona Legislature. As Senator, Catherine has ben dedicated to the values of her community and is running to continue her representation of Arizona's 11th Legislative District in the Senate.",
+      "why_bullets": [
+        "Public education",
+        "Mental-health services",
+        "Housing and homelessness",
+        "Job creation"
+      ],
+      "links": {
+        "website": "https://www.mirandaforsenate.com/",
+        "volunteer": "",
+        "donate": "https://secure.anedot.com/078f4333-55ff-4f46-94d7-4491eebe258a/donate"
+      },
+      "photo": "images/catherine-miranda.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.mirandaforsenate.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-patty-contreras",
+      "category": "seize_new_ground",
+      "race_id": "race-ld12-senate",
+      "name": "Patty Contreras",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Retired Phoenix public servant and experienced state representative",
+      "summary": "Patty served for more than 31 years with the City of Phoenix, where she worked in providing programs and resources for seniors. Given her background as both an Arizonan native and in public policy, Patty is committed to Arizona's environment, seniors, and veterans. She now runs to represent Arizona's 12th Legislative District in the Senate.",
+      "why_bullets": [
+        "Public education",
+        "Seniors and veterans",
+        "Affordable housing",
+        "Water and climate resilience"
+      ],
+      "links": {
+        "website": "https://www.contrerasforaz.net/",
+        "volunteer": "",
+        "donate": "https://secure.actblue.com/donate/contrerasforaz"
+      },
+      "photo": "images/patty-contreras.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.contrerasforaz.net/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-stephanie-walsh",
+      "category": "seize_new_ground",
+      "race_id": "race-ld14-senate",
+      "name": "Stephanie Walsh",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Engineer and business leader focused on practical solutions",
+      "summary": "Stephanie is a mechanical engineer, business owner, and nonprofit leader. Her experience has fueled a passion for reliable energy, responsible water management, public education, and a robust economy. She is running to represent Arizona's 14th Legistive District in the Senate.",
+      "why_bullets": [
+        "Energy affordability",
+        "Water security",
+        "Economic growth",
+        "Public education"
+      ],
+      "links": {
+        "website": "https://www.walshforarizona.com/",
+        "volunteer": "https://www.walshforarizona.com/",
+        "donate": "https://secure.actblue.com/donate/stephanie-walsh-1"
+      },
+      "photo": "images/stephanie-walsh.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.walshforarizona.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-edgar-soto",
+      "category": "seize_new_ground",
+      "race_id": "race-ld17-senate",
+      "name": "Edgar Soto",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Marine veteran, lifelong educator, and community leader",
+      "summary": "Soto has more than 30 years in education from K-12 through higher education and brings experience as a Marine veteran, educator, coach, and community leader.",
+      "why_bullets": [
+        "Public education",
+        "Lower costs",
+        "Veterans",
+        "Water security"
+      ],
+      "links": {
+        "website": "https://www.sotoforarizona.com/",
+        "volunteer": "https://www.sotoforarizona.com/",
+        "donate": "https://secure.actblue.com/donate/edgar-soto-1?refcode=directory"
+      },
+      "photo": "images/edgar-soto.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.sotoforarizona.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-priya-sundareshan",
+      "category": "hold_the_line",
+      "race_id": "race-ld18-senate",
+      "name": "Priya Sundareshan",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Natural-resources attorney, educator, and State Senate leader",
+      "summary": "Sundareshan was born and raised in Tucson, studied engineering at MIT and law and natural-resource economics at the University of Arizona, and has worked on natural resources and voting rights.",
+      "why_bullets": [
+        "Water conservation",
+        "Clean energy",
+        "Voting rights",
+        "Public education"
+      ],
+      "links": {
+        "website": "https://www.priya4az.com/",
+        "volunteer": "https://www.priya4az.com/",
+        "donate": "https://secure.actblue.com/donate/priya-for-arizona-1"
+      },
+      "photo": "images/priya-sundareshan.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.priya4az.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-ryan-slawson",
+      "category": "seize_new_ground",
+      "race_id": "race-ld19-senate",
+      "name": "Ryan Slawson",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Army veteran, software developer, and small-business owner",
+      "summary": "Slawson served nine years as an Army intelligence collector with two Iraq deployments, has worked as a software developer for more than a decade, and has nearly 15 years of small-business experience.",
+      "why_bullets": [
+        "Government accountability",
+        "Sustainable growth",
+        "Small business",
+        "Economic affordability"
+      ],
+      "links": {
+        "website": "https://www.slawsonforazdistrict19.org/",
+        "volunteer": "https://www.slawsonforazdistrict19.org/",
+        "donate": "https://secure.actblue.com/donate/ryan-slawson-1?refcode=directory"
+      },
+      "photo": "images/ryan-slawson.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.slawsonforazdistrict19.org/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-rosanna-gabaldon",
+      "category": "hold_the_line",
+      "race_id": "race-ld21-senate",
+      "name": "Rosanna Gabaldón",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Experienced Southern Arizona legislator and local-government leader",
+      "summary": "Gabald├│n has served Southern Arizona as a town councilmember, state representative, and state senator, with a record emphasizing collaboration, public education, economic development, and water sustainability.",
+      "why_bullets": [
+        "Public education",
+        "Economic development",
+        "Water sustainability",
+        "Collaborative leadership"
+      ],
+      "links": {
+        "website": "https://votegabaldon.com/",
+        "volunteer": "https://votegabaldon.com/",
+        "donate": "https://secure.actblue.com/donate/elect-gabaldon-for-senate-1?refcode=directory"
+      },
+      "photo": "images/rosanna-gabaldon.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://votegabaldon.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-eva-diaz",
+      "category": "hold_the_line",
+      "race_id": "race-ld22-senate",
+      "name": "Eva Diaz",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Lifelong educator and experienced Arizona state senator",
+      "summary": "Dr. Eva Diaz has served in the Arizona Senate since 2022 and draws on a career in education to advocate for public schools, healthcare, working families, housing, and equal rights.",
+      "why_bullets": [
+        "Public education",
+        "Affordable healthcare",
+        "Working families",
+        "Affordable housing"
+      ],
+      "links": {
+        "website": "http://www.EvaDiaz4AZ.com",
+        "volunteer": "http://www.EvaDiaz4AZ.com",
+        "donate": "http://www.EvaDiaz4AZ.com"
+      },
+      "photo": "images/eva-diaz.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "http://www.EvaDiaz4AZ.com",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-brian-fernandez",
+      "category": "hold_the_line",
+      "race_id": "race-ld23-senate",
+      "name": "Brian Fernandez",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Yuma native, entrepreneur, and experienced state senator",
+      "summary": "Fernandez is a sixth-generation Arizonan who attended Yuma public schools, founded and sold a software company, and later entered public service focused on rural communities, education, water, transportation, and jobs.",
+      "why_bullets": [
+        "Public education",
+        "Rural jobs",
+        "Affordable housing",
+        "Water and infrastructure"
+      ],
+      "links": {
+        "website": "https://www.briansfernandez.com/",
+        "volunteer": "https://www.briansfernandez.com/",
+        "donate": "https://www.briansfernandez.com/"
+      },
+      "photo": "images/brian-fernandez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.briansfernandez.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-analise-ortiz",
+      "category": "hold_the_line",
+      "race_id": "race-ld24-senate",
+      "name": "Analise Ortiz",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Former investigative journalist and civil-rights advocate",
+      "summary": "Ortiz is an Arizona native and former investigative journalist whose public-service work includes civil-rights advocacy and legislative action on worker safety, childcare, homelessness, roads, and government accountability.",
+      "why_bullets": [
+        "Worker protections",
+        "Affordable housing",
+        "Public education",
+        "Civil and voting rights"
+      ],
+      "links": {
+        "website": "https://www.ortizforaz.com/",
+        "volunteer": "https://www.ortizforaz.com/",
+        "donate": "https://www.ortizforaz.com/"
+      },
+      "photo": "images/analise-ortiz.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.ortizforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-laura-huber",
+      "category": "seize_new_ground",
+      "race_id": "race-ld25-senate",
+      "name": "Laura Huber",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Licensed counselor and fifth-generation farm-family advocate",
+      "summary": "Huber is a licensed professional counselor from five generations of farmers and ranchers, with frontline mental-health experience in crisis response, psychiatric care, corrections, and homelessness outreach.",
+      "why_bullets": [
+        "Affordable cost of living",
+        "Water and agriculture",
+        "Healthcare and mental health",
+        "Local economic growth"
+      ],
+      "links": {
+        "website": "https://www.laurahuberforazsenate.com/en",
+        "volunteer": "https://www.laurahuberforazsenate.com/en/contact",
+        "donate": ""
+      },
+      "photo": "images/laura-huber.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.laurahuberforazsenate.com/en",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-flavio-bravo",
+      "category": "hold_the_line",
+      "race_id": "race-ld26-senate",
+      "name": "Flavio Bravo",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Fifth-generation Arizonan and experienced state senator",
+      "summary": "Bravo was born and raised in District 26, is a first-generation college graduate, and has combined legislative service with nonprofit and community leadership focused on housing, education, jobs, and healthcare.",
+      "why_bullets": [
+        "Affordable housing",
+        "Public education",
+        "Job opportunity",
+        "Healthcare access"
+      ],
+      "links": {
+        "website": "https://flaviobravo.com/",
+        "volunteer": "https://flaviobravo.com/",
+        "donate": "https://flaviobravo.com/"
+      },
+      "photo": "images/flavio-bravo.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://flaviobravo.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-kyle-clayton",
+      "category": "seize_new_ground",
+      "race_id": "race-ld27-senate",
+      "name": "Kyle Clayton",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "School-board president and data-driven community advocate",
+      "summary": "Clayton is a lifelong District 27 resident, Realtor, and Washington Elementary School District governing-board president who emphasizes analytical decision-making, transparency, and student- and family-focused leadership.",
+      "why_bullets": [
+        "Strong schools",
+        "Lower household costs",
+        "Affordable housing",
+        "Fiscal accountability"
+      ],
+      "links": {
+        "website": "https://www.kyleforarizona.com/",
+        "volunteer": "https://www.kyleforarizona.com/",
+        "donate": "https://www.kyleforarizona.com/"
+      },
+      "photo": "images/kyle-clayton.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.kyleforarizona.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-michael-braun",
+      "category": "seize_new_ground",
+      "race_id": "race-ld28-senate",
+      "name": "Michael Braun",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Community-focused candidate emphasizing service and collaboration",
+      "summary": "Braun's campaign stresses listening, problem solving, and active constituent service, with priorities spanning water, the economy, energy, education funding, rights, veterans, taxes, and the state budget.",
+      "why_bullets": [
+        "Water security",
+        "Education funding",
+        "Economic well-being",
+        "Transparent government"
+      ],
+      "links": {
+        "website": "https://braun4az28.com/",
+        "volunteer": "https://braun4az28.com/about-michael",
+        "donate": "https://braun4az28.com/about-michael"
+      },
+      "photo": "images/michael-braun.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://braun4az28.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-eric-stafford",
+      "category": "seize_new_ground",
+      "race_id": "race-ld29-senate",
+      "name": "Eric Stafford",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Lifelong Arizonan, tradesman, organizer, and small-business advocate",
+      "summary": "Stafford is an Arizona native with experience as an airframe-and-powerplant mechanic, machinist, veterinary technician, political organizer, and small-business advocate.",
+      "why_bullets": [
+        "Lower cost of living",
+        "Fair wages",
+        "Strong schools",
+        "Accountable government"
+      ],
+      "links": {
+        "website": "https://stafford4az.com/",
+        "volunteer": "https://stafford4az.com/",
+        "donate": "https://stafford4az.com/"
+      },
+      "photo": "images/eric-stafford.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://stafford4az.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-lauren-kuby",
+      "category": "hold_the_line",
+      "race_id": "race-ld08-senate",
+      "name": "Lauren Kuby",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "State senator, former Tempe vice mayor, and sustainability scientist",
+      "summary": "Kuby is a former Tempe councilmember and vice mayor and an ASU sustainability scientist with a long record on environmental, consumer, worker, housing, and voting-rights issues.",
+      "why_bullets": [
+        "Lower cost of living",
+        "Public education",
+        "Climate and water",
+        "Worker and voting rights"
+      ],
+      "links": {
+        "website": "https://www.kubyforsenate.com/",
+        "volunteer": "https://www.kubyforsenate.com/",
+        "donate": "https://secure.actblue.com/donate/lauren-kuby-for-state-senate-1?refcode=directory"
+      },
+      "photo": "images/lauren-kuby.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.kubyforsenate.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-alma-hernandez",
+      "category": "seize_new_ground",
+      "race_id": "race-ld20-senate",
+      "name": "Alma Hernandez",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Public-health professional and experienced Tucson legislator",
+      "summary": "Hernandez was born and raised on Tucson's south side, attended local public schools, and trained in public health, bringing that background to legislative work on healthcare, affordability, housing, and family economic security.",
+      "why_bullets": [
+        "Affordable healthcare",
+        "Cost of living",
+        "Affordable housing",
+        "Working families"
+      ],
+      "links": {
+        "website": "https://www.almaforarizona.com/",
+        "volunteer": "https://www.almaforarizona.com/",
+        "donate": "https://www.almaforarizona.com/"
+      },
+      "photo": "images/alma-hernandez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.almaforarizona.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-mae-peshlakai",
+      "category": "hold_the_line",
+      "race_id": "race-ld06-house",
+      "name": "Mae Peshlakai",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Veteran public servant representing rural and tribal Arizona",
+      "summary": "Peshlakai brings experience in the Arizona House and Senate, Native American liaison work, education programs, small business, and military service, with a focus on the distinctive needs of rural and tribal communities.",
+      "why_bullets": [
+        "Rural economy",
+        "Food and housing security",
+        "Healthcare access",
+        "Voting rights"
+      ],
+      "links": {
+        "website": "https://maeforazhouse.com/",
+        "volunteer": "https://maeforazhouse.com/",
+        "donate": ""
+      },
+      "photo": "images/mae-peshlakai.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://maeforazhouse.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-ian-teller",
+      "category": "seize_new_ground",
+      "race_id": "race-ld06-house",
+      "name": "Ian Teller",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Ian is a Diné community advocate and next-generation rural leader",
+      "summary": "Ian Teller is a Diné leader from Tsaile, Arizona with a background in community advocacy and youth engagement.",
+      "why_bullets": [
+        "Strong schools",
+        "Safe housing",
+        "Affordability",
+        "Sustainable rural communities"
+      ],
+      "links": {
+        "website": "https://www.tellerforarizona.com/",
+        "volunteer": "https://www.tellerforarizona.com/",
+        "donate": "https://www.tellerforarizona.com/"
+      },
+      "photo": "images/ian-teller.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.tellerforarizona.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-janeen-connolly",
+      "category": "hold_the_line",
+      "race_id": "race-ld08-house",
+      "name": "Janeen Connolly",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Community-engagement professional and experienced state representative",
+      "summary": "Connolly spent decades building community and government relationships across Arizona, earned a master's in advocacy communication, and has brought that bridge-building background to the Legislature.",
+      "why_bullets": [
+        "Affordability",
+        "Job creation",
+        "Affordable housing",
+        "Education and healthcare"
+      ],
+      "links": {
+        "website": "https://www.azjaneen.com/",
+        "volunteer": "https://www.azjaneen.com/",
+        "donate": "https://www.azjaneen.com/"
+      },
+      "photo": "images/janeen-connolly.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.azjaneen.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-brian-garcia",
+      "category": "hold_the_line",
+      "race_id": "race-ld08-house",
+      "name": "Brian Garcia",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Attorney, community advocate, and public-school leader",
+      "summary": "Garcia is an Arizona-raised attorney and first-generation graduate whose public-service background includes school-board leadership, congressional work, Tribal representation, and advocacy for unaccompanied children.",
+      "why_bullets": [
+        "Public education",
+        "Healthcare",
+        "Reproductive freedom",
+        "Affordability"
+      ],
+      "links": {
+        "website": "https://www.briangarciaaz.com/",
+        "volunteer": "https://www.briangarciaaz.com/",
+        "donate": ""
+      },
+      "photo": "images/brian-garcia.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.briangarciaaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-sally-ann-gonzales",
+      "category": "seize_new_ground",
+      "race_id": "race-ld20-house",
+      "name": "Sally Ann Gonzales",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Educator, Pascua Yaqui leader, and veteran Arizona lawmaker",
+      "summary": "Gonzales is a former elementary teacher and Pascua Yaqui Tribal Council member who became the first Indigenous woman elected to the Arizona House and has spent years advocating for children, elders, veterans, and vulnerable families.",
+      "why_bullets": [
+        "Public education",
+        "Healthcare and human services",
+        "Indigenous communities",
+        "Housing and economic security"
+      ],
+      "links": {
+        "website": "",
+        "volunteer": "",
+        "donate": "https://secure.actblue.com/donate/sally-ann-gonzales-1"
+      },
+      "photo": "images/sally-ann-gonzales.jpg",
+      "photo_credit": "Pima County Democratic Party",
+      "source": "Pima County Elections Voter Guide",
+      "source_url": "https://www.pimadems.org/voter-guide",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-betty-villegas",
+      "category": "hold_the_line",
+      "race_id": "race-ld20-house",
+      "name": "Betty Villegas",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Housing expert and longtime Tucson public servant",
+      "summary": "Villegas is a third-generation Tucsonan with decades of public service in affordable housing and community development, including leadership roles with Pima County, South Tucson, and the Arizona Legislature.",
+      "why_bullets": [
+        "Affordable housing",
+        "Public education",
+        "Healthcare",
+        "Environmental justice"
+      ],
+      "links": {
+        "website": "https://www.bettyvillegasaz.com/",
+        "volunteer": "https://www.bettyvillegasaz.com/",
+        "donate": "https://www.bettyvillegasaz.com/"
+      },
+      "photo": "images/betty-villegas.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.bettyvillegasaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-sandy-zalecki",
+      "category": "seize_new_ground",
+      "race_id": "race-ld01-house",
+      "name": "Sandy Zalecki",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Veteran, small-business owner, and real-estate professional",
+      "summary": "Zalecki's background includes military service, ranch ownership, healthcare administration, and real estate, giving her firsthand experience with rural communities, property, and household economic concerns.",
+      "why_bullets": [
+        "Veterans",
+        "Reproductive freedom",
+        "Affordability",
+        "Rural community needs"
+      ],
+      "links": {
+        "website": "https://sandyzforaz.com/",
+        "volunteer": "https://sandyzforaz.com/",
+        "donate": ""
+      },
+      "photo": "images/sandy-zalecki.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://sandyzforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-julie-gable",
+      "category": "seize_new_ground",
+      "race_id": "race-ld03-house",
+      "name": "Julie Gable",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Business executive focused on practical, community-first solutions",
+      "summary": "Gable is an executive and entrepreneur whose campaign highlights experience leading organizations and a practical approach to healthcare access, technology, water security, and public education.",
+      "why_bullets": [
+        "Healthcare access",
+        "Responsible technology and AI",
+        "Water security",
+        "Stronger education"
+      ],
+      "links": {
+        "website": "https://www.juliegable.com/",
+        "volunteer": "https://www.juliegable.com/",
+        "donate": ""
+      },
+      "photo": "images/julie-gable.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.juliegable.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-rick-spargo",
+      "category": "seize_new_ground",
+      "race_id": "race-ld03-house",
+      "name": "Rick Spargo",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Longtime small-business owner and civic volunteer",
+      "summary": "Spargo is a District 3 resident, business owner, and father of four. He has served in civic and veterans-support organizations. As State Representative, Spargo will emphasize moderation and practical problem solving.",
+      "why_bullets": [
+        "Affordability",
+        "Public education",
+        "Water security",
+        "Practical bipartisan government"
+      ],
+      "links": {
+        "website": "https://electspargo.com/",
+        "volunteer": "https://electspargo.com/#contact",
+        "donate": "https://secure.actblue.com/donate/richard-spargo-3"
+      },
+      "photo": "images/rick-spargo.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://electspargo.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-sarah-liguori",
+      "category": "hold_the_line",
+      "race_id": "race-ld05-house",
+      "name": "Sarah Liguori",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Businesswoman, financial professional, and experienced legislator",
+      "summary": "Sarah is an Arizona native, mother and businesswoman. She has five years of experience as a legislator in Arizona's House of Representatives. As a representative, Sarah has fought for affordability, public education, and voting rights.",
+      "why_bullets": [
+        "Affordability",
+        "Public education",
+        "Reproductive freedom",
+        "Working families"
+      ],
+      "links": {
+        "website": "https://sarahliguori.com/",
+        "volunteer": "https://sarahliguori.com/volunteer",
+        "donate": "https://secure.actblue.com/donate/sarah-liguori-for-state-rep-ld-5-1"
+      },
+      "photo": "images/sarah-liguori.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://sarahliguori.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-aaron-marquez",
+      "category": "hold_the_line",
+      "race_id": "race-ld05-house",
+      "name": "Aaron Márquez",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Army veteran, school-board leader, and public-service advocate",
+      "summary": "Aaron has served Americans both abroad and at home, ranging from two combat tours in Afghanistan, to five years on the Phoenix Union High School District governing board. As State House Representative, Aaron would fight to protect Arizona's shrinking middle class.",
+      "why_bullets": [
+        "Public education",
+        "Healthcare costs",
+        "Democracy",
+        "Reproductive freedom"
+      ],
+      "links": {
+        "website": "https://www.aaronmarquez.com/",
+        "volunteer": "https://www.aaronmarquez.com/volunteer",
+        "donate": "https://secure.actblue.com/donate/marquez-4-az?refcode=website"
+      },
+      "photo": "images/aaron-marquez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.aaronmarquez.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-samuel-martin",
+      "category": "seize_new_ground",
+      "race_id": "race-ld07-house",
+      "name": "Samuel Martin",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Customer-service professional focused on constituent problem solving",
+      "summary": "Sam's 20+ years of experience in public-facing and technical roles has made him an expert communicator and negotiator. Sam hopes to bring his skills to the AZ House, to fight for healthcare, consumers, and education.",
+      "why_bullets": [
+        "Consumer advocacy",
+        "Public services",
+        "Affordability",
+        "Responsive government"
+      ],
+      "links": {
+        "website": "https://sanitysam.com/",
+        "volunteer": "https://sanitysam.com/join-the-sanity-campaign/",
+        "donate": "https://secure.actblue.com/donate/samuel-martin-1"
+      },
+      "photo": "images/samuel-martin.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://sanitysam.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-jacob-martinez",
+      "category": "seize_new_ground",
+      "race_id": "race-ld09-house",
+      "name": "Jacob Martinez",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Mesa native, Navy reservist, and community advocate",
+      "summary": "Jacob is a lifelong Mesa resident, Navy reservist, and community advocate. As a state representative, Jacob will work to improve affordability, schools, and water.",
+      "why_bullets": [
+        "Affordability",
+        "Public schools",
+        "Water security",
+        "Economic opportunity"
+      ],
+      "links": {
+        "website": "https://www.martinezforaz.com/",
+        "volunteer": "https://www.mobilize.us/ld9democrats/",
+        "donate": "https://secure.actblue.com/donate/jacob-martinez-1"
+      },
+      "photo": "images/jacob-martinez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.martinezforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-helen-hunter",
+      "category": "seize_new_ground",
+      "race_id": "race-ld10-house",
+      "name": "Helen Hunter",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Chaplain, community organizer, and social-justice advocate",
+      "summary": "Dr. Helen Hunter is a board-certified chaplain, ordained minister and businesswoman with deep connections to both her community and faith. She is a longtime Mesa community organizer who has worked on housing, community safety, and interfaith initiatives.",
+      "why_bullets": [
+        "Affordability",
+        "Public education",
+        "Water management",
+        "Transparent leadership"
+      ],
+      "links": {
+        "website": "https://www.voteforhelenhunter2026.com/",
+        "volunteer": "https://www.voteforhelenhunter2026.com/",
+        "donate": ""
+      },
+      "photo": "images/helen-hunter.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.voteforhelenhunter2026.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-brian-calaway",
+      "category": "seize_new_ground",
+      "race_id": "race-ld10-house",
+      "name": "Brian Calaway",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Former science educator and community-program leader",
+      "summary": "Brian left classroom teaching to build after-school enrichment programs and is now running for the AZ House. As a state legislator, Brian would advocate for access to healthcare, housing, and education.",
+      "why_bullets": [
+        "Affordable healthcare",
+        "Housing",
+        "Public education",
+        "Good jobs"
+      ],
+      "links": {
+        "website": "https://www.briancalaway.com/",
+        "volunteer": "https://www.briancalaway.com/volunteer-form/",
+        "donate": ""
+      },
+      "photo": "images/brian-calaway.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.briancalaway.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-oscar-de-los-santos",
+      "category": "hold_the_line",
+      "race_id": "race-ld11-house",
+      "name": "Oscar De Los Santos",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "House Democratic leader and former teacher",
+      "summary": "Oscar represents District 11 and serves as House Democratic Leader, with a legislative record that includes medical-debt relief, childcare funding, and tenant protections.",
+      "why_bullets": [
+        "Healthcare affordability",
+        "Housing",
+        "Public education",
+        "Working families"
+      ],
+      "links": {
+        "website": "https://oscarforaz.com/",
+        "volunteer": "https://oscarforaz.com/volunteer",
+        "donate": "https://secure.actblue.com/donate/oscar2026"
+      },
+      "photo": "images/oscar-de-los-santos.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://oscarforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-junelle-cavero",
+      "category": "hold_the_line",
+      "race_id": "race-ld11-house",
+      "name": "Junelle Cavero",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Small-business owner and longtime community advocate",
+      "summary": "Junelle is the daughter of hardworking immigrant parents and a small-business owner . She has spent more than 25 years in advocacy and community work, bringing family and entrepreneurial experience to the Legislature.",
+      "why_bullets": [
+        "Small business",
+        "Education and opportunity",
+        "Working families",
+        "Community advocacy"
+      ],
+      "links": {
+        "website": "https://www.caveroforaz.com/",
+        "volunteer": "https://www.caveroforaz.com/volunteer",
+        "donate": "https://secure.actblue.com/donate/caveroforarizona"
+      },
+      "photo": "images/junelle-cavero.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.caveroforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-stacey-travers",
+      "category": "hold_the_line",
+      "race_id": "race-ld12-house",
+      "name": "Stacey Travers",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Army veteran, geoscientist, and experienced state representative",
+      "summary": "Stacey Travers is a U.S. Army veteran and geoscientist. In her time at the AZ House, Stacey has advocated for veterans and emphasized bipartisan lawmaking to bring real results.",
+      "why_bullets": [
+        "Public education",
+        "Veterans",
+        "Energy",
+        "Water and natural resources"
+      ],
+      "links": {
+        "website": "https://www.traversforaz.com/",
+        "volunteer": "https://www.traversforaz.com/get-involved",
+        "donate": "https://secure.actblue.com/donate/traversforaz"
+      },
+      "photo": "images/stacey-travers.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.traversforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-armando-montero",
+      "category": "seize_new_ground",
+      "race_id": "race-ld12-house",
+      "name": "Armando Montero",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "School-board leader with policy and public-budget experience",
+      "summary": "Armando joined the Tempe Union High School District board at 19 and later served as board president. As a representative, Armando will bring his six years experience to advocate for Arizonans.",
+      "why_bullets": [
+        "Public education",
+        "Affordable housing",
+        "Healthcare",
+        "Water and economic growth"
+      ],
+      "links": {
+        "website": "https://monteroforaz.com/",
+        "volunteer": "https://monteroforaz.com/take-action/",
+        "donate": "https://secure.actblue.com/donate/monteroforaz"
+      },
+      "photo": "images/armando-montero.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://monteroforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-jacob-weinberg",
+      "category": "seize_new_ground",
+      "race_id": "race-ld13-house",
+      "name": "Jacob Weinberg",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Army veteran, CPA, and technology-company finance leader",
+      "summary": "Jacob is a long-serving Army officer, CPA, financial auditor, and technology-company CFO. As a member of the AZ House, Jacob will bring his team-building skills to advocate for veterans, schools, and equality.",
+      "why_bullets": [
+        "Responsible development",
+        "Strong economy",
+        "Education",
+        "Veterans"
+      ],
+      "links": {
+        "website": "https://www.electweinberg.com/",
+        "volunteer": "https://www.electweinberg.com/events",
+        "donate": "https://secure.actblue.com/donate/weinberg-for-az"
+      },
+      "photo": "images/jacob-weinberg.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.electweinberg.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-mary-rose",
+      "category": "seize_new_ground",
+      "race_id": "race-ld14-house",
+      "name": "Mary Rose",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Third-generation Arizonan and experienced business professional",
+      "summary": "Mary has spent her career in large organizations and community service. As a state representative, Mary will fight for affordability, accountability, and sustainability.",
+      "why_bullets": [
+        "Affordability",
+        "Public education",
+        "Water security",
+        "Government accountability"
+      ],
+      "links": {
+        "website": "https://www.maryrose4ld14.com/",
+        "volunteer": "https://www.maryrose4ld14.com/vote",
+        "donate": ""
+      },
+      "photo": "images/mary-rose.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.maryrose4ld14.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-kevin-volk",
+      "category": "hold_the_line",
+      "race_id": "race-ld17-house",
+      "name": "Kevin Volk",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Small-business owner, former teacher, and bipartisan legislator",
+      "summary": "Kevin is a Southern Arizona native, small-business owner, and former teacher. He has been in the Arizona House of Representatives since 2025. If reelected, Kevin will use his experience to lower living costs and invest in education.",
+      "why_bullets": [
+        "Lower living costs",
+        "Public education",
+        "Bipartisan problem solving",
+        "Economic opportunity"
+      ],
+      "links": {
+        "website": "https://www.kevinvolkaz.com/",
+        "volunteer": "https://www.mobilize.us/ld17democrats/event/789523/",
+        "donate": "https://secure.actblue.com/donate/kevin-volk-for-arizona"
+      },
+      "photo": "images/kevin-volk.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.kevinvolkaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-chris-mathis",
+      "category": "hold_the_line",
+      "race_id": "race-ld18-house",
+      "name": "Chris Mathis",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Elder-law attorney, health-policy professor, and state representative",
+      "summary": "Mathis practices elder law and teaches health-care law and aging at the University of Arizona, bringing extensive policy experience in healthcare, long-term care, water, education, and voting rights.",
+      "why_bullets": [
+        "Water security",
+        "Public education",
+        "Healthcare",
+        "Voting and reproductive rights"
+      ],
+      "links": {
+        "website": "https://www.mathisforaz.com/",
+        "volunteer": "https://us17.list-manage.com/survey?u=e82b59b8f47414139f3ca1a98&id=115eb2d87c&attribution=false",
+        "donate": "https://secure.actblue.com/donate/mathis2026-website"
+      },
+      "photo": "images/chris-mathis.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.mathisforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-jackie-anderson",
+      "category": "seize_new_ground",
+      "race_id": "race-ld19-house",
+      "name": "Jackie Anderson",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Retired emergency-room nurse and rural-health advocate",
+      "summary": "Jackie spent more than four decades in nursing, including 19 years at an Arizona Critical Access Hospital. Her experiences have driven her to focus on healthcare access, affordability, and sustainable communities.",
+      "why_bullets": [
+        "Healthcare access",
+        "Affordability",
+        "Public schools",
+        "Sustainability"
+      ],
+      "links": {
+        "website": "https://jackieforarizona.com/",
+        "volunteer": "",
+        "donate": ""
+      },
+      "photo": "images/jackie-anderson.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://jackieforarizona.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-aiden-swallow",
+      "category": "seize_new_ground",
+      "race_id": "race-ld19-house",
+      "name": "Aiden Swallow",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Army veteran focused on rural Arizona services and affordability",
+      "summary": "Swallow is a rural Arizona native and served nearly 20 years in Army intelligence until being abruptly removed after coming out as trans. Her experiences have not discouraged her, but rather spurred her to advocate for rural healthcare, public schools, and affordability.",
+      "why_bullets": [
+        "Rural healthcare",
+        "Public schools",
+        "Water conservation",
+        "Reproductive healthcare"
+      ],
+      "links": {
+        "website": "https://aswallowforaz.com/",
+        "volunteer": "https://aswallowforaz.com/volunteer",
+        "donate": ""
+      },
+      "photo": "images/aiden-swallow.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://aswallowforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-consuelo-hernandez",
+      "category": "hold_the_line",
+      "race_id": "race-ld21-house",
+      "name": "Consuelo Hernandez",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "School-board veteran and experienced state representative",
+      "summary": "Consuelo has served both on the Sunnyside School District governing board and in the Arizona House. She has a proven track record of voting for economic mobility, healthcare, and education.",
+      "why_bullets": [
+        "Affordable housing",
+        "Healthcare",
+        "Public education",
+        "Worker protections"
+      ],
+      "links": {
+        "website": "https://www.consueloforarizona.com/",
+        "volunteer": "https://www.consueloforarizona.com/volunteer",
+        "donate": "https://secure.actblue.com/donate/consuelo-for-arizona-1"
+      },
+      "photo": "images/consuelo-hernandez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.consueloforarizona.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-miranda-lopez",
+      "category": "seize_new_ground",
+      "race_id": "race-ld21-house",
+      "name": "Miranda Lopez",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Organizer and public-policy professional rooted in Southern Arizona",
+      "summary": "Miranda has worked as a campaign organizer, Pima County Democratic Party executive director, and labor leader. As LD21's representative, she will advocate for education, sustainability, and affordability.",
+      "why_bullets": [
+        "Public education",
+        "Affordable housing",
+        "Working families",
+        "Voting and civil rights"
+      ],
+      "links": {
+        "website": "https://lopezforarizona.com/",
+        "volunteer": "https://docs.google.com/forms/d/e/1FAIpQLSdq77a9aucs80vI0aiYYImjTJjkoOozpbvPqZWul2zu8arCIQ/viewform",
+        "donate": "https://secure.actblue.com/donate/lopezforarizona"
+      },
+      "photo": "images/miranda-lopez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://lopezforarizona.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-elda-luna-najera",
+      "category": "hold_the_line",
+      "race_id": "race-ld22-house",
+      "name": "Elda Luna-Nájera",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Educator, social-work professional, and community leader",
+      "summary": "Dr. Luna-Nájera is a native Arizonan with a doctorate in social work. Her career in social work has spurred her to run for State Representative, where she can bring opportunity to the families who need it most.",
+      "why_bullets": [
+        "Civil and voting rights",
+        "Education and healthcare",
+        "Fair wages",
+        "Community investment"
+      ],
+      "links": {
+        "website": "https://eldaforaz.com/",
+        "volunteer": "https://eldaforaz.com/volunteer",
+        "donate": "https://secure.actblue.com/donate/elda-luna-najera-1"
+      },
+      "photo": "images/elda-luna-najera.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://eldaforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-betsy-munoz",
+      "category": "seize_new_ground",
+      "race_id": "race-ld22-house",
+      "name": "Betsy Munoz",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Education nonprofit leader and West Valley community advocate",
+      "summary": "Muñoz was born and raised in Arizona, graduated from ASU in public service and public policy. She works in educational nonprofits, helping West Valley students prepare for college and careers. Muñoz's career in education has provided insights necessary for improvements in Arizona's public school system.",
+      "why_bullets": [
+        "Public education",
+        "Affordable housing",
+        "Healthcare access",
+        "Working families"
+      ],
+      "links": {
+        "website": "https://www.munoz4az.com/en/",
+        "volunteer": "https://forms.gle/RXz33HByDQPqgwMF6",
+        "donate": ""
+      },
+      "photo": "images/betsy-munoz.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.munoz4az.com/en/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-mariana-sandoval",
+      "category": "hold_the_line",
+      "race_id": "race-ld23-house",
+      "name": "Mariana Sandoval",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Working-family advocate and experienced state representative",
+      "summary": "Sandoval is a mother, community member, and legislator. Her experiences in the working class has led her to focus on affordability, jobs, and the environment.",
+      "why_bullets": [
+        "Public education",
+        "Healthcare affordability",
+        "Housing and jobs",
+        "Clean air and water"
+      ],
+      "links": {
+        "website": "https://www.sandovalforaz.com/",
+        "volunteer": "https://www.sandovalforaz.com/volunteer",
+        "donate": "https://secure.actblue.com/donate/sandoval-for-arizona-1"
+      },
+      "photo": "images/mariana-sandoval.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.sandovalforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-emilia-cortez",
+      "category": "seize_new_ground",
+      "race_id": "race-ld23-house",
+      "name": "Emilia Cortez",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Yuma native and bilingual public-affairs professional",
+      "summary": "Cortez is a Yuma native and bilingual public-affairs professional whose work spans education, nonprofits, Tribal governance, economic development, infrastructure, investment, and workforce issues.",
+      "why_bullets": [
+        "Education",
+        "Infrastructure",
+        "Economic development",
+        "Working families"
+      ],
+      "links": {
+        "website": "https://www.emiliaforazld23.com/",
+        "volunteer": "https://www.emiliaforazld23.com/",
+        "donate": "https://www.emiliaforazld23.com/"
+      },
+      "photo": "images/emilia-cortez.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.emiliaforazld23.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-alberto-flores",
+      "category": "seize_new_ground",
+      "race_id": "race-ld24-house",
+      "name": "Alberto Flores",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Phoenix native focused on working-family affordability",
+      "summary": "Flores grew up in a working-class immigrant family in Phoenix, studied political science at ASU, and is campaigning on affordability, public education, healthcare, and practical collaboration.",
+      "why_bullets": [
+        "Affordability",
+        "Public education",
+        "Healthcare",
+        "Working families"
+      ],
+      "links": {
+        "website": "https://floresforaz.com/",
+        "volunteer": "https://floresforaz.com/",
+        "donate": "https://floresforaz.com/"
+      },
+      "photo": "images/alberto-flores.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://floresforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-lisbeth-arescurenaga",
+      "category": "seize_new_ground",
+      "race_id": "race-ld24-house",
+      "name": "Lisbeth Arescurenaga",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Licensed mental-health professional and family advocate",
+      "summary": "Arescurenaga came to the United States as a teenager and built a career in social work and mental health, serving families, young people, and people facing serious health and housing challenges.",
+      "why_bullets": [
+        "Mental healthcare",
+        "Affordable housing",
+        "Public education",
+        "Healthcare access"
+      ],
+      "links": {
+        "website": "https://www.lisbeth4az.com/",
+        "volunteer": "https://www.lisbeth4az.com/",
+        "donate": "https://www.lisbeth4az.com/"
+      },
+      "photo": "images/lisbeth-arescurenaga.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.lisbeth4az.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-tiffany-byrne",
+      "category": "seize_new_ground",
+      "race_id": "race-ld25-house",
+      "name": "Tiffany Byrne",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Veteran educator and school administrator",
+      "summary": "Byrne has spent more than 20 years as a teacher and education leader, including K-12 science instruction and school administration, and brings firsthand experience with Arizona schools.",
+      "why_bullets": [
+        "Public education",
+        "Economic opportunity",
+        "Water security",
+        "Accountable government"
+      ],
+      "links": {
+        "website": "https://www.byrneazld25.com/en",
+        "volunteer": "https://www.byrneazld25.com/en",
+        "donate": "https://secure.actblue.com/donate/byrneazld25"
+      },
+      "photo": "images/tiffany-byrne.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.byrneazld25.com/en",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-cesar-aguilar",
+      "category": "hold_the_line",
+      "race_id": "race-ld26-house",
+      "name": "Cesar Aguilar",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "Working-class Phoenix native and education-access advocate",
+      "summary": "Aguilar was born and raised in Phoenix, studied political science at NAU, and has led the Arizona Students' Association, organizing students and advocating for college access and affordability.",
+      "why_bullets": [
+        "Public education",
+        "College affordability",
+        "Working families",
+        "Economic opportunity"
+      ],
+      "links": {
+        "website": "https://www.aguilar4az.com/",
+        "volunteer": "https://www.aguilar4az.com/",
+        "donate": "https://www.aguilar4az.com/"
+      },
+      "photo": "images/cesar-aguilar.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.aguilar4az.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-quanta-crews",
+      "category": "hold_the_line",
+      "race_id": "race-ld26-house",
+      "name": "Quantá Crews",
+      "incumbent": true,
+      "ballot_designation": "Democratic Party",
+      "headline": "State representative, property professional, and community minister",
+      "summary": "Crews is a property appraiser and associate minister who draws on lived experience working multiple jobs and has focused her legislative work on education, transportation, family supports, healthcare, and workforce training.",
+      "why_bullets": [
+        "K-12 education",
+        "Healthcare",
+        "Childcare and family supports",
+        "Workforce opportunity"
+      ],
+      "links": {
+        "website": "https://quantaforaz.com/",
+        "volunteer": "https://quantaforaz.com/",
+        "donate": "https://quantaforaz.com/"
+      },
+      "photo": "images/quanta-crews.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://quantaforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-barbara-fike",
+      "category": "seize_new_ground",
+      "race_id": "race-ld28-house",
+      "name": "Barbara Fike",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Career educator running a publicly financed campaign",
+      "summary": "Fike is a career educator and Clean Elections candidate whose campaign focuses on schools, water management, affordable housing, reproductive healthcare, civil rights, and voting rights.",
+      "why_bullets": [
+        "Public education",
+        "Water management",
+        "Affordable housing",
+        "Voting and reproductive rights"
+      ],
+      "links": {
+        "website": "https://www.fike4az.com/",
+        "volunteer": "https://www.fike4az.com/",
+        "donate": ""
+      },
+      "photo": "images/barbara-fike.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://www.fike4az.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-marc-graham",
+      "category": "seize_new_ground",
+      "race_id": "race-ld28-house",
+      "name": "Marc Graham",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Air Force veteran, labor negotiator, and aviation professional",
+      "summary": "Graham is a retired Air Force master sergeant, former union organizer and chief negotiator, FAA-licensed aircraft technician and inspector, and aviation instructor with decades of leadership experience.",
+      "why_bullets": [
+        "Veterans and service",
+        "Workforce and labor",
+        "Technical education",
+        "Government integrity"
+      ],
+      "links": {
+        "website": "https://marcgrahamforaz.com/",
+        "volunteer": "https://marcgrahamforaz.com/",
+        "donate": "https://marcgrahamforaz.com/"
+      },
+      "photo": "images/marc-graham.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://marcgrahamforaz.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-christine-scianna",
+      "category": "seize_new_ground",
+      "race_id": "race-ld29-house",
+      "name": "Christine Scianna",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Former science teacher and disability-family advocate",
+      "summary": "Scianna is a native Arizonan, former middle-school and science teacher, and longtime advocate for autism and disabled families who has testified at the Legislature on protections for vulnerable adults.",
+      "why_bullets": [
+        "Public education",
+        "Healthcare access",
+        "Water",
+        "Affordability"
+      ],
+      "links": {
+        "website": "https://christineforarizona.com/",
+        "volunteer": "https://christineforarizona.com/",
+        "donate": "https://christineforarizona.com/"
+      },
+      "photo": "images/christine-scianna.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://christineforarizona.com/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    },
+    {
+      "id": "entry-brian-mcmahan",
+      "category": "seize_new_ground",
+      "race_id": "race-ld30-house",
+      "name": "Brian McMahan",
+      "incumbent": false,
+      "ballot_designation": "Democratic Party",
+      "headline": "Retired fire chief and lifelong rural public servant",
+      "summary": "McMahan spent roughly 40 years in public service, including as fire chief for the Parker and Buckskin Fire Districts, and emphasizes practical problem solving, transparency, rural services, and emergency-response experience.",
+      "why_bullets": [
+        "Public safety",
+        "Public schools",
+        "Water rights",
+        "Transparent government"
+      ],
+      "links": {
+        "website": "https://electbrian.org/",
+        "volunteer": "https://electbrian.org/",
+        "donate": "https://electbrian.org/donate"
+      },
+      "photo": "images/brian-mcmahan.jpg",
+      "photo_credit": "Campaign-provided photo",
+      "source": "Official campaign website",
+      "source_url": "https://electbrian.org/",
+      "status": "published",
+      "created_by": "LLM",
+      "updated": "9/8/2026"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org-001",
+      "name": "Arizona Secretary of State – Elections Division",
+      "counties": [
+        "pima",
+        "cochise"
+      ],
+      "statewide": true,
+      "focus_tags": [
+        "election administration",
+        "voter intimidation response",
+        "polling-place conduct",
+        "election incident reporting"
+      ],
+      "description": "Arizona's chief elections office issues statewide rules for voting locations, including the 75-foot perimeter, weapons, observers, and law-enforcement presence, and operates 1-877-THE-VOTE to route reported problems to county officials or law enforcement.",
+      "ways_to_help": [
+        "Report intimidation or unlawful conduct to a poll worker and 1-877-THE-VOTE",
+        "Sign up through your county to serve as a trained poll worker",
+        "Share official Arizona voting-location guidance and arizona.vote resources"
+      ],
+      "links": {
+        "website": "https://azsos.gov/elections",
+        "volunteer": "https://azsos.gov/elections/about-elections/elections-procedures/pre-election-procedures",
+        "donate": "",
+        "events": "https://azsos.gov/elections/about-elections/guidance-voting-location-conduct",
+        "social": ""
+      },
+      "photo": "images/org-001.png",
+      "urgent": true,
+      "verified_on": "2026-07-22",
+      "status": "published"
+    },
+    {
+      "id": "org-002",
+      "name": "Arizona Attorney General – Election Integrity Unit",
+      "counties": [
+        "cochise"
+      ],
+      "statewide": true,
+      "focus_tags": [
+        "election-law enforcement",
+        "election complaints",
+        "voter and election-worker protection",
+        "litigation"
+      ],
+      "description": "The Attorney General's Office enforces certain statewide election laws, accepts first-hand civil election complaints and criminal referrals, and has litigated 2026 disputes involving federal attempts to alter Arizona election administration and mail voting.",
+      "ways_to_help": [
+        "File a first-hand election complaint when conduct may violate Arizona law",
+        "Preserve specific evidence, dates, locations, and witness information",
+        "For immediate threats or crimes in progress, contact local law enforcement first"
+      ],
+      "links": {
+        "website": "https://www.azag.gov/criminal/eiu",
+        "volunteer": "",
+        "donate": "",
+        "events": "https://www.azag.gov/complaints/election",
+        "social": ""
+      },
+      "photo": "images/org-002.png",
+      "urgent": true,
+      "verified_on": "2026-07-22",
+      "status": "published"
+    },
+    {
+      "id": "org-003",
+      "name": "ACLU of Arizona",
+      "counties": [
+        "coconino"
+      ],
+      "statewide": true,
+      "focus_tags": [
+        "voting rights",
+        "voter intimidation",
+        "civil-rights litigation",
+        "voter education"
+      ],
+      "description": "The ACLU of Arizona publishes 2026 voter-rights guidance, including specific information on federal agents and police at the polls, and works on election access through advocacy, education, collaboration, and litigation.",
+      "ways_to_help": [
+        "Learn and share Arizona voter-rights and intimidation guidance",
+        "Report suspected civil-liberties violations or request assistance",
+        "Volunteer with the ACLU of Arizona or help monitor civil-liberties issues in your community"
+      ],
+      "links": {
+        "website": "https://www.acluaz.org/issues/voting-rights-elections/",
+        "volunteer": "",
+        "donate": "https://action.aclu.org/secure/support-aclu-arizona?ms=web__aff_az_actionbutton_join",
+        "events": "https://www.acluaz.org/events/",
+        "social": ""
+      },
+      "photo": "images/org-003.png",
+      "urgent": true,
+      "verified_on": "2026-07-22",
+      "status": "published"
+    },
+    {
+      "id": "org-004",
+      "name": "League of Women Voters of Arizona",
+      "counties": [
+        "maricopa"
+      ],
+      "statewide": true,
+      "focus_tags": [
+        "election protection",
+        "poll observation",
+        "voter education",
+        "misinformation response"
+      ],
+      "description": "The nonpartisan League engages members in Election Protection poll observation, poll-worker recruitment, voter registration, VOTE411 voter education, voting-rights advocacy, and efforts to counter election misinformation and disinformation.",
+      "ways_to_help": [
+        "Volunteer as an Election Protection monitor",
+        "Help recruit or serve as a poll worker",
+        "Support voter registration, voter education, and misinformation-response work"
+      ],
+      "links": {
+        "website": "https://lwvaz.org/",
+        "volunteer": "https://lwvaz.org/content.aspx?club_id=666348&module_id=685301&page_id=22",
+        "donate": "https://lwvaz.org/",
+        "events": "https://www.lwvaz.org/content.aspx?club_id=666348&item_id=2759978&page_id=4002",
+        "social": ""
+      },
+      "photo": "images/org-004.png",
+      "urgent": true,
+      "verified_on": "2026-07-22",
+      "status": "published"
+    },
+    {
+      "id": "org-005",
+      "name": "Common Cause Arizona",
+      "counties": [
+        "pima",
+        "maricopa",
+        "cochise",
+        "coconino"
+      ],
+      "statewide": true,
+      "focus_tags": [
+        "election protection",
+        "poll monitoring",
+        "voter assistance",
+        "disinformation response"
+      ],
+      "description": "Common Cause Arizona mobilizes nonpartisan Election Protection volunteers, assists voters at polling places, monitors misleading election information, promotes voter-help hotlines, and escalates major problems to election officials.",
+      "ways_to_help": [
+        "Serve as a nonpartisan Election Protection volunteer",
+        "Help voters understand their rights and report intimidation or obstruction",
+        "Share 866-OUR-VOTE and Arizona voter-help resources with your community"
+      ],
+      "links": {
+        "website": "https://www.commoncause.org/arizona/",
+        "volunteer": "https://www.commoncause.org/arizona/join-our-volunteer-team/",
+        "donate": "https://www.commoncause.org/arizona/donate/",
+        "events": "https://www.commoncause.org/arizona/take-action/",
+        "social": ""
+      },
+      "photo": "images/org-005.png",
+      "urgent": true,
+      "verified_on": "2026-07-22",
+      "status": "published"
+    },
+    {
+      "id": "org-006",
+      "name": "Election Protection (866-OUR-VOTE)",
+      "counties": [
+        "pima"
+      ],
+      "statewide": true,
+      "focus_tags": [
+        "voter-protection hotline",
+        "poll monitoring",
+        "legal assistance",
+        "incident reporting"
+      ],
+      "description": "Election Protection is a national, nonpartisan coalition administered by the Lawyersâ€™ Committee for Civil Rights Under Law. Trained volunteers answer voting questions, receive reports of intimidation or suppression, and provide field-based voter assistance.",
+      "ways_to_help": [
+        "Volunteer for nonpartisan poll monitoring",
+        "Legal professionals can staff the Election Protection hotline",
+        "Save and share 866-OUR-VOTE and its language-access hotlines"
+      ],
+      "links": {
+        "website": "https://866ourvote.org/",
+        "volunteer": "https://866ourvote.org/volunteer/",
+        "donate": "https://lawyerscommittee.org/epgiving",
+        "events": "https://866ourvote.org/resources/",
+        "social": ""
+      },
+      "photo": "images/org-006.png",
+      "urgent": true,
+      "verified_on": "2026-07-22",
+      "status": "published"
+    },
+    {
+      "id": "org-007",
+      "name": "Brennan Center for Justice",
+      "counties": [],
+      "statewide": true,
+      "focus_tags": [
+        "voter intimidation law",
+        "federal-agent interference",
+        "election litigation",
+        "election-official guidance"
+      ],
+      "description": "The Brennan Center's 2026 election work directly addresses armed federal agents at polling sites, voter-intimidation law, and Arizona-specific election-interference scenarios, while preparing litigation and practical guidance for voters and election officials.",
+      "ways_to_help": [
+        "Use and share its 2026 safe-voting guidance",
+        "Share the Arizona Election Interference Law Handbook with election officials and community leaders",
+        "Support its legal and policy work or attend voting-rights events"
+      ],
+      "links": {
+        "website": "https://www.brennancenter.org/issues/ensure-every-american-can-vote/voting-rights",
+        "volunteer": "https://www.brennancenter.org/get-involved",
+        "donate": "https://secure.brennancenter.org/secure/donate-brennan-center-justice",
+        "events": "https://www.brennancenter.org/events",
+        "social": ""
+      },
+      "photo": "images/org-007.png",
+      "urgent": true,
+      "verified_on": "2026-07-23",
+      "status": "published"
+    },
+    {
+      "id": "org-008",
+      "name": "Protect Democracy",
+      "counties": [],
+      "statewide": true,
+      "focus_tags": [
+        "election interference",
+        "rule of law",
+        "litigation",
+        "2026 midterm preparedness"
+      ],
+      "description": "Protect Democracy litigates and advocates around abuses of government power, publishes 2026 midterm guidance on federal troops and law-enforcement officers at the polls, and offers public action resources including voter-protection training and poll-worker engagement.",
+      "ways_to_help": [
+        "Learn the 2026 legal limits on troops and federal agents at polling places",
+        "Use its democracy action playbook and voter-protection training resources",
+        "Sign up for updates or become a poll worker"
+      ],
+      "links": {
+        "website": "https://protectdemocracy.org/",
+        "volunteer": "https://protectdemocracy.org/how-you-can-protect-democracy/",
+        "donate": "https://protectdemocracy.org/donate/",
+        "events": "https://protectdemocracy.org/work/frequently-asked-questions-about-the-2026-midterm-elections/",
+        "social": ""
+      },
+      "photo": "images/org-008.png",
+      "urgent": true,
+      "verified_on": "2026-07-24",
+      "status": "published"
+    },
+    {
+      "id": "org-009",
+      "name": "Committee for Safe and Secure Elections",
+      "counties": [],
+      "statewide": true,
+      "focus_tags": [
+        "election security",
+        "threat response",
+        "law-enforcement coordination",
+        "continuity of voting"
+      ],
+      "description": "This cross-partisan group of election administrators and law-enforcement experts produces 2026 state-specific security guides, including an Arizona guide on interference and intimidation, and supports training, scenario planning, and coordinated threat response.",
+      "ways_to_help": [
+        "Share the Arizona 2026 law-enforcement quick-reference guide with local officials",
+        "Encourage election officials and law enforcement to conduct scenario planning or tabletop exercises",
+        "Use its security-assessment and threat-response resources"
+      ],
+      "links": {
+        "website": "https://safeelections.org/",
+        "volunteer": "https://safeelections.org/contact/",
+        "donate": "",
+        "events": "https://safeelections.org/resources/",
+        "social": ""
+      },
+      "photo": "images/org-009.png",
+      "urgent": true,
+      "verified_on": "2026-07-25",
+      "status": "published"
+    },
+    {
+      "id": "org-010",
+      "name": "Faiths United to Save Democracy (FUSD)",
+      "counties": [],
+      "statewide": true,
+      "focus_tags": [
+        "poll chaplains",
+        "de-escalation",
+        "voter intimidation response",
+        "faith-based election protection"
+      ],
+      "description": "FUSD is a nonpartisan, multiracial, interfaith voter-protection campaign with Arizona as a 2026 priority state. Its Poll Chaplain/Peacekeeper program trains volunteers to provide a calm presence and de-escalate potential conflict, including scenarios involving ICE agents at polling stations.",
+      "ways_to_help": [
+        "Complete 2026 Poll Chaplain/Peacekeeper training",
+        "Serve a polling-site shift in Arizona",
+        "Use 866-OUR-VOTE to report incidents and follow FUSD buddy-system and safety guidance"
+      ],
+      "links": {
+        "website": "https://www.turnoutsunday.com/",
+        "volunteer": "https://www.turnoutsunday.com/",
+        "donate": "https://www.skinnerleaders.org/give",
+        "events": "https://www.turnoutsunday.com/votertoolkit",
+        "social": ""
+      },
+      "photo": "images/org-010.png",
+      "urgent": true,
+      "verified_on": "2026-07-26",
+      "status": "published"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "_README": [
+    "HSF VOTER GUIDE - BASE FILE (configuration and legal copy)",
+    "",
+    "This file holds everything volunteers must NOT touch: settings, the paid-for",
+    "disclaimer, publisher name, methodology note, category labels, county list,",
+    "ballot level order, and theme colors.",
+    "",
+    "HOW THE PIECES FIT TOGETHER:",
+    "  data.base.json     (this file)  - config and legal copy. Editor-owned.",
+    "  data.content.json               - races, entries, organizations. Comes from the Google Sheet.",
+    "  data.json          (generated)  - the two above merged. This is what the site reads.",
+    "",
+    "Never hand-edit data.json. Edit this file or the sheet, then re-run the converter.",
+    "",
+    "counties lists all 15 Arizona counties. This is the MASTER list the",
+    "converter validates against. data.json only carries the counties that",
+    "actually have published content, so voters never hit an empty filter.",
+    "",
+    "STILL OUTSTANDING IN THIS FILE:",
+    "Replace every TODO in settings before publishing.",
+    "Validate edits before publishing - one missing comma blanks the site."
+  ],
+  "settings": {
+    "guide_name": "HSF Voter Guide",
+    "tagline": "Hold the Line. Seize New Ground. Fight Like Hell.",
+    "state": "Arizona",
+    "cycle": "2026",
+    "publisher_name": "Hold Seize Fight",
+    "paid_for_by": "Paid for by Hold Seize Fight. With 0% from out-of-state contributors. Not Authorized by a Candidate.",
+    "contact_email": "hsfvote@gmail.com",
+    "website": "https://hsf.vote",
+    "last_updated": "2026-09-13",
+    "methodology_note": "Hold Seize Fight selects candidates based on incumbents or candidates for office who embrace justice, democracy, and equality. Entries are researched from campaign materials, public records, and endorsements from allied organizations, then written and reviewed by volunteers before publication. To suggest a correction or a candidate we've missed, write to hsfvote@gmail.com.",
+    "election_dates": {
+      "primary": "",
+      "general": "November 3, 2026",
+      "voter_reg_deadline_general": "October 5, 2026 at 11:59pm"
+    },
+    "voter_tools": {
+      "check_registration_url": "https://my.arizona.vote/",
+      "register_url": "https://servicearizona.com/VoterRegistration/selectLanguage",
+	  "youtube_url": "https://www.youtube.com/@hsfvoter",
+      "find_polling_place_url": ""
+	  
+    }
+  },
+    "propositions": {
+    "intro": "All eight measures on this year's ballot were referred by the legislature, not by citizen petition. Hold Seize Fight recommends a NO vote on every one.",
+    "items": [
+      {
+        "number": "141",
+        "title": "Ban on vehicle-miles-traveled taxes",
+        "recommendation": "NO",
+        "summary": "Writes a transportation funding ban into the Constitution, cutting off road and infrastructure revenue and leaving no room to adapt as needs change."
+      },
+      {
+        "number": "142",
+        "title": "Restrictions on public institution programs",
+        "recommendation": "NO",
+        "summary": "Bars public schools from any policy referencing race, gender, or sexual orientation, putting lawful mentoring, outreach, and student support programs at risk."
+      },
+      {
+        "number": "144",
+        "title": "Voter ID and proof of citizenship requirements",
+        "recommendation": "NO",
+        "summary": "Requires photo ID and proof of citizenship for every ballot, including mail ballots, forcing Arizonans to file ID paperwork with the government at every election."
+      },
+      {
+        "number": "316",
+        "title": "Cap on local grocery tax",
+        "recommendation": "NO",
+        "summary": "Strips local control over taxes and hands it to the state, hitting rural and smaller communities hardest and threatening libraries, parks, and basic services."
+      },
+      {
+        "number": "317",
+        "title": "Drug cartels as terrorist organizations",
+        "recommendation": "NO",
+        "summary": "A symbolic designation with no enforcement mechanism and no funding to carry it out."
+      },
+      {
+        "number": "318",
+        "title": "Student athletics and facility requirements",
+        "recommendation": "NO",
+        "summary": "A blanket sports ban written by politicians that treats kindergarteners like college athletes and exposes school teams to lawsuits."
+      },
+      {
+        "number": "319",
+        "title": "Photo-enforcement voter approval",
+        "recommendation": "NO",
+        "summary": "Blocks local governments from using red-light cameras and other photo enforcement that reduce traffic deaths."
+      },
+      {
+        "number": "320",
+        "title": "Legislative control of school budgets",
+        "recommendation": "NO",
+        "summary": "Takes budget decisions away from local schools and cuts funding for districts that miss an arbitrary spending threshold set by a state appointee."
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "hold_the_line",
+      "label_lead": "HOLD",
+      "label_rest": "THE LINE",
+      "blurb": "Incumbents in office who are doing the work. Defend these seats.",
+      "applies_to": "entries"
+    },
+    {
+      "id": "seize_new_ground",
+      "label_lead": "SEIZE",
+      "label_rest": "NEW GROUND",
+      "blurb": "Candidates committed to going further than the seat's current occupant.",
+      "applies_to": "entries"
+    },
+    {
+      "id": "fight_like_hell",
+      "label_lead": "FIGHT",
+      "label_rest": "LIKE HELL",
+      "blurb": "Organizations on the front lines. Show up, give, volunteer.",
+      "applies_to": "organizations"
+    }
+  ],
+  "counties": [
+    {
+      "id": "apache",
+      "name": "Apache County",
+      "seat": "St. Johns"
+    },
+    {
+      "id": "cochise",
+      "name": "Cochise County",
+      "seat": "Bisbee"
+    },
+    {
+      "id": "coconino",
+      "name": "Coconino County",
+      "seat": "Flagstaff"
+    },
+    {
+      "id": "gila",
+      "name": "Gila County",
+      "seat": "Globe"
+    },
+    {
+      "id": "graham",
+      "name": "Graham County",
+      "seat": "Safford"
+    },
+    {
+      "id": "greenlee",
+      "name": "Greenlee County",
+      "seat": "Clifton"
+    },
+    {
+      "id": "la_paz",
+      "name": "La Paz County",
+      "seat": "Parker"
+    },
+    {
+      "id": "maricopa",
+      "name": "Maricopa County",
+      "seat": "Phoenix"
+    },
+    {
+      "id": "mohave",
+      "name": "Mohave County",
+      "seat": "Kingman"
+    },
+    {
+      "id": "navajo",
+      "name": "Navajo County",
+      "seat": "Holbrook"
+    },
+    {
+      "id": "pima",
+      "name": "Pima County",
+      "seat": "Tucson"
+    },
+    {
+      "id": "pinal",
+      "name": "Pinal County",
+      "seat": "Florence"
+    },
+    {
+      "id": "santa_cruz",
+      "name": "Santa Cruz County",
+      "seat": "Nogales"
+    },
+    {
+      "id": "yavapai",
+      "name": "Yavapai County",
+      "seat": "Prescott"
+    },
+    {
+      "id": "yuma",
+      "name": "Yuma County",
+      "seat": "Yuma"
+    }
+  ],
+  "levels": [
+    {
+      "id": "federal",
+      "label": "Federal"
+    },
+    {
+      "id": "state",
+      "label": "State"
+    }
+  ],
+  "theme": {
+    "navy_dark": "#12253C",
+    "navy": "#1B3A5C",
+    "orange": "#E0522C",
+    "gold": "#F5C518",
+    "paper": "#F7F4EC"
+  }
+}

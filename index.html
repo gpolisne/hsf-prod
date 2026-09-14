@@ -3,315 +3,134 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hold Seize Fight | Arizona 2026</title>
-<meta name="description" content="Check your Arizona voter registration, register to vote, and hear from Arizonans on why 2026 matters. Full voter guide arrives September 15.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Hold Seize Fight | Arizona 2026">
+<title>HSF Voter Guide</title>
+<meta name="description" content="Arizona voter guide. Hold the Line. Seize New Ground. Fight Like Hell.">
+
+<meta property="og:title" content="HSF Voter Guide">
 <meta property="og:description" content="Hold the Line. Seize New Ground. Fight Like Hell.">
+<meta property="og:type" content="website">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Public+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Public+Sans:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="teaser.css">
+<link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
 
-<a class="skip-link" href="#main">Skip to the main content</a>
+<a class="skip-link" href="#main">Skip to the guide</a>
 
-<!-- ============================================================
-     MASTHEAD
-     ============================================================ -->
+<!-- ============ MASTHEAD ============ -->
 <header class="masthead">
   <div class="masthead-inner">
-    <p class="eyebrow">Arizona &middot; General Election November 3, 2026</p>
+    <p class="eyebrow" id="cycle-line">Arizona</p>
     <h1 class="wordmark">
-      <span><span class="lead">Hold</span> the Line</span>
-      <span><span class="lead">Seize</span> New Ground</span>
-      <span><span class="lead">Fight</span> Like Hell</span>
+      <span class="wm-line"><span class="lead">Hold</span> the Line</span>
+      <span class="wm-line"><span class="lead">Seize</span> New Ground</span>
+      <span class="wm-line"><span class="lead">Fight</span> Like Hell</span>
     </h1>
-    <p class="masthead-sub">Start where every Arizonan starts: make sure you can vote.</p>
+    <p class="masthead-sub" id="masthead-sub"></p>
   </div>
 </header>
 
-<!-- ============================================================
-     VOTER TOOLS
-     Links go only to Arizona Secretary of State properties.
-     ============================================================ -->
+<!-- ============ VOTER TOOLS ============ -->
 <section class="voter-tools" aria-label="Voter registration tools">
   <div class="tools-inner">
-    <a class="toolbtn" href="https://my.arizona.vote/" target="_blank" rel="noopener">Check my registration</a>
-    <a class="toolbtn" href="https://azsos.gov/elections/voters/registering-vote" target="_blank" rel="noopener">Register or update</a>
-    <a class="toolbtn" href="https://arizona.vote/" target="_blank" rel="noopener">Find my polling place</a>
+    <span id="voter-tools" style="display:contents"></span>
+        <button class="toolbtn toolbtn-quiet" id="print-btn" type="button" onclick="window.print()">Print HSF Summary</button>>
   </div>
 </section>
 
+<!-- ============ FILTER BAR ============ -->
+<nav class="filterbar" aria-label="Filter the guide">
+  <div class="filterbar-inner">
+
+    <div class="filter-group">
+      <label class="filter-label" for="county-select">Your county</label>
+      <select id="county-select" class="county-select"></select>
+    </div>
+
+    <div class="filter-group filter-group-levels" id="level-group">
+      <span class="filter-label" id="level-label">Office level</span>
+      <div class="chiprow" role="group" aria-labelledby="level-label" id="level-chips"></div>
+    </div>
+
+  </div>
+</nav>
+
+<!-- ============ MAIN ============ -->
 <main id="main">
+<div class="print-header" aria-hidden="true">
+  <svg width="120" height="40" viewBox="0 0 120 40"><rect x="1" y="1" width="118" height="38" fill="none" stroke="#000" stroke-width="2"/><text x="60" y="26" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="16">HSF</text></svg>
+  <div class="print-title">Hold Seize Fight — 2026 General Election</div>
+  <div class="print-note">Report any problems voting: <strong>866-OUR-VOTE</strong> (866-687-8683). Your legislative district is printed on your voter registration card.</div>
+</div>
 
-  <!-- ============================================================
-       PROMISE BAND
-       ============================================================ -->
-  <section class="promise">
-    <div class="promise-inner">
-      <p class="promise-lede">The full guide arrives September 13</p>
-      <p class="promise-text">Thirty-one state and federal races on the Arizona ballot, plus the Save Our Schools initiative, with a clear recommendation and a reason for each one. Until then, do the one thing that has to happen first.</p>
-      <p class="promise-text"><strong>Registration closes October 5, 2026.</strong> If you have moved, changed your name, or simply have not checked in a while, check now. It takes about a minute.</p>
+  <!-- status / error region -->
+  <div id="status" class="status" role="status" aria-live="polite"></div>
+
+  <!-- ---- CATEGORY 1: HOLD THE LINE ---- -->
+  <section class="category" id="section-hold_the_line" data-category="hold_the_line">
+    <div class="category-head">
+      <h2 class="category-title"><span class="lead">Hold</span> the Line</h2>
+      <p class="category-blurb" data-role="blurb"></p>
+      <p class="category-count" data-role="count"></p>
     </div>
+    <div class="cardgrid" data-role="cards"></div>
+    <p class="empty" data-role="empty" hidden>No entries yet for this county.</p>
   </section>
 
-  <!-- ============================================================
-       TESTIMONIAL WALL
-
-       Clips live on the HSF YouTube channel. The wall below is
-       built by the script at the bottom of this file from the
-       CLIPS array. To change the wall, edit that array only.
-       Nothing in this section needs touching.
-       ============================================================ -->
-  <section class="wall" aria-labelledby="wall-title">
-    <div class="wall-inner">
-      <h2 class="wall-title" id="wall-title">Why <span class="lead">2026</span> matters here</h2>
-      <p class="wall-blurb">Arizonans, in their own words. A few seconds each.</p>
-
-      <div class="wall-grid" id="wall-grid">
-        <div class="wall-empty">
-          <p>The clips need JavaScript to play here.</p>
-          <p><a href="https://www.youtube.com/@hsfvoter" target="_blank" rel="noopener">Watch them on YouTube instead.</a></p>
-        </div>
-      </div>
+  <!-- ---- CATEGORY 2: SEIZE NEW GROUND ---- -->
+  <section class="category" id="section-seize_new_ground" data-category="seize_new_ground">
+    <div class="category-head">
+      <h2 class="category-title"><span class="lead">Seize</span> New Ground</h2>
+      <p class="category-blurb" data-role="blurb"></p>
+      <p class="category-count" data-role="count"></p>
     </div>
+    <div class="cardgrid" data-role="cards"></div>
+    <p class="empty" data-role="empty" hidden>No entries yet for this county.</p>
+  </section>
+      <!-- ---- BALLOT PROPOSITIONS ---- -->
+  <section class="category" id="section-propositions">
+    <div class="category-head">
+      <h2 class="category-title"><span class="lead">Ballot</span> Propositions</h2>
+    </div>
+    <p class="prop-intro" id="prop-intro"></p>
+    <div class="prop-list" id="prop-list"></div>
   </section>
 
-  <!-- ============================================================
-       EXPLAINER CALL-OUT
-       ============================================================ -->
-  <section class="explainer-cta">
-    <div class="explainer-inner">
-      <h2 class="explainer-title">Hold. Seize. Fight.</h2>
-      <p class="explainer-text">Three words that sort the whole Arizona ballot. Here is what each one means and how we decide which races land where.</p>
-      <a class="toolbtn" href="categories.html" style="max-width:20rem;">Read what they mean</a>
+  <!-- ---- CATEGORY 3: FIGHT LIKE HELL ---- -->
+  <section class="category category-orgs" id="section-fight_like_hell" data-category="fight_like_hell">
+    <div class="category-head">
+      <h2 class="category-title"><span class="lead">Fight</span> Like Hell</h2>
+      <p class="category-blurb" data-role="blurb"></p>
+      <p class="category-count" data-role="count"></p>
     </div>
+    <div class="cardgrid" data-role="cards"></div>
+    <p class="empty" data-role="empty" hidden>No organizations listed yet for this county.</p>
   </section>
+
 
 </main>
 
-<!-- ============================================================
-     FOOTER
-     ============================================================ -->
+<!-- ============ FOOTER ============ -->
 <footer class="footer">
   <div class="footer-inner">
-    <p class="footer-head">Hold Seize Fight</p>
-    <p class="footer-text">An Arizona voter project. The full guide to all thirty-one state and federal races publishes September 15, 2026.</p>
+    <h2 class="footer-head">How this guide is made</h2>
+    <p id="methodology" class="footer-text"></p>
 
-    <dl class="footer-meta">
-      <dt>Election day</dt>
-      <dd>Tuesday, November 3, 2026</dd>
+    <dl class="footer-meta" id="footer-meta"></dl>
 
-      <dt>Registration deadline</dt>
-      <dd>Monday, October 5, 2026</dd>
-
-      <dt>Official Arizona election information</dt>
-      <dd><a href="https://arizona.vote/" target="_blank" rel="noopener">arizona.vote</a>, run by the Arizona Secretary of State</dd>
-
-      <dt>Questions about your registration</dt>
-      <dd>Call 1-877-THE-VOTE, or contact your county recorder</dd>
-    </dl>
-
-    <p class="disclaimer">
-      hsf.vote is brought to you by independent voters concerned about America. Not authorized by any candidate or candidate committee.
-    </p>
+    <p class="disclaimer" id="paid-for-by"></p>
   </div>
 </footer>
 
-<!-- ============================================================
-     LIGHTBOX
-     Empty until a tile is clicked. The player iframe is created
-     on open and destroyed on close, so no video keeps running
-     in the background.
-     ============================================================ -->
-<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Video player">
-  <div class="lightbox-frame">
-    <button type="button" class="lightbox-close" id="lightbox-close">Close</button>
-    <div id="lightbox-slot"></div>
+<noscript>
+  <div class="noscript-note">
+    This guide needs JavaScript turned on to display. Turn it on in your browser settings and reload the page.
   </div>
-</div>
+</noscript>
 
-<script>
-/* ============================================================
-   THE WALL
-
-   TO EDIT THE WALL, EDIT THIS LIST AND NOTHING ELSE.
-
-   One line per clip, in the order they should appear:
-
-     { id: "YOUTUBE_ID", name: "First L.", where: "Tucson" }
-
-   id     required. The characters after /shorts/ in the URL.
-            https://youtube.com/shorts/YE2rtF5oj4c  ->  YE2rtF5oj4c
-   name   optional. Leave as "" and the tile shows no caption.
-   where  optional. City or region. Leave as "" to omit.
-   poster optional. Path to a local still frame, e.g.
-            "videos/posters/maria.jpg". If left off, the
-            thumbnail is pulled from YouTube instead.
-
-   To add a clip, copy a line and change the id.
-   To remove one, delete its line.
-   To reorder, move lines. The grid re-flows on its own.
-   ============================================================ */
-const CLIPS = [
-  { id: "PMmSEOBhDSw", name: "", where: "" },
-  { id: "AWn7qK4wAGY", name: "", where: "" },
-  { id: "ahy2fMoat5k", name: "", where: "" },
-  { id: "txs3SKxWoh8", name: "", where: "" },
-  { id: "hn6w8XNEDBQ", name: "", where: "" },
-  { id: "rml7CcqFwOM", name: "", where: "" },
-  { id: "s9ud7JPRuGI", name: "", where: "" },
-  { id: "y87VVr-pYe4", name: "", where: "" },
-  { id: "28ycxAAgnWI", name: "", where: "" },
-  { id: "oBNUHvI7ORU", name: "", where: "" },
-  { id: "28Sm4pIAP9g", name: "", where: "" },
-  { id: "Tj-kyijpOA0", name: "", where: "" },
-  { id: "wBaNSFzY3Ho", name: "", where: "" },
-  { id: "sMOhlrzwki8", name: "", where: "" },
-  { id: "CqkjM44_KqY", name: "", where: "" },
-  { id: "F_EppwgxtdY", name: "", where: "" },
-  { id: "-Qnp4D2skUY", name: "", where: "" },
-  { id: "gczn5WstlUs", name: "", where: "" },
-  { id: "qpGYskobEsk", name: "", where: "" },
-  { id: "GeOPqJvqQIU", name: "", where: "" },
-  { id: "xbMKOFFrExE", name: "", where: "" },
-  { id: "lQ7-9VBI4x0", name: "", where: "" },
-  { id: "5xMfVN9mvqw", name: "", where: "" },
-  { id: "V3yg9rczX50", name: "", where: "" },
-  { id: "IZ_Mawr6LsU", name: "", where: "" },
-  { id: "FUi95O7Py1o", name: "", where: "" },
-  { id: "NIXHHmdvteA", name: "", where: "" },
-  { id: "CIDZQTiItJQ", name: "", where: "" },
-  { id: "ojI3M-X_ItQ", name: "", where: "" },
-  { id: "YE2rtF5oj4c", name: "", where: "" },
-  { id: "iE3JUc9pzNI", name: "", where: "" },
-  { id: "th9GGzzzHF0", name: "", where: "" },
-  { id: "Ww1hRXWg8Mc", name: "", where: "" },
-  { id: "QPOzKCuJWbA", name: "", where: "" },
-  { id: "4VxXGxrB4KY", name: "", where: "" },
-  { id: "TJdT67HX6dk", name: "", where: "" },
-  { id: "FYRh1ghYm-U", name: "", where: "" },
-  { id: "2qU4GnMdoSU", name: "", where: "" },
-  { id: "CFrzMrH1fLE", name: "", where: "" },
-  { id: "E4HZk6OKj4k", name: "", where: "" },
-  { id: "tTQSX6kRj70", name: "", where: "" },
-  { id: "eSlRz3dM0g4", name: "", where: "" },
-  { id: "uBlG9BVObMQ", name: "", where: "" },
-  { id: "kWD9bKaSbls", name: "", where: "" },
-  { id: "GFp6H0OV1dI", name: "", where: "" }
-  /* ninth clip goes here when it is published */
-];
-
-/* ------------------------------------------------------------
-   Everything below is machinery. It should not need editing.
-   ------------------------------------------------------------ */
-(function () {
-  "use strict";
-
-  const grid    = document.getElementById("wall-grid");
-  const box     = document.getElementById("lightbox");
-  const slot    = document.getElementById("lightbox-slot");
-  const closeEl = document.getElementById("lightbox-close");
-
-  if (!grid || !box || !slot || !closeEl) return;
-  if (!CLIPS.length) return;
-
-  let lastFocused = null;
-
-  /* ---------- build the tiles ---------- */
-  grid.innerHTML = "";
-
-  CLIPS.forEach(function (clip) {
-    if (!clip || !clip.id) return;
-
-    const article = document.createElement("article");
-    article.className = "clip";
-
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "clip-btn";
-
-    const label = clip.name
-      ? "Play video from " + clip.name + (clip.where ? " in " + clip.where : "")
-      : "Play testimonial video";
-    btn.setAttribute("aria-label", label);
-
-    const img = document.createElement("img");
-    img.className = "clip-thumb";
-    img.loading = "lazy";
-    img.alt = "";
-    img.src = clip.poster
-      ? clip.poster
-      : "https://i.ytimg.com/vi/" + clip.id + "/hqdefault.jpg";
-    btn.appendChild(img);
-
-    btn.addEventListener("click", function () { openBox(clip.id, btn); });
-    article.appendChild(btn);
-
-    if (clip.name || clip.where) {
-      const cap = document.createElement("div");
-      cap.className = "clip-caption";
-      if (clip.name) {
-        const n = document.createElement("p");
-        n.className = "clip-name";
-        n.textContent = clip.name;
-        cap.appendChild(n);
-      }
-      if (clip.where) {
-        const w = document.createElement("p");
-        w.className = "clip-where";
-        w.textContent = clip.where;
-        cap.appendChild(w);
-      }
-      article.appendChild(cap);
-    }
-
-    grid.appendChild(article);
-  });
-
-  /* ---------- open ---------- */
-  function openBox(videoId, source) {
-    lastFocused = source || null;
-
-    const frame = document.createElement("iframe");
-    frame.src = "https://www.youtube-nocookie.com/embed/" + videoId +
-                "?autoplay=1&rel=0&modestbranding=1&playsinline=1";
-    frame.title = "Testimonial video";
-    frame.allow = "autoplay; encrypted-media; picture-in-picture";
-    frame.allowFullscreen = true;
-
-    slot.appendChild(frame);
-    box.hidden = false;
-    document.body.style.overflow = "hidden";
-    closeEl.focus();
-  }
-
-  /* ---------- close ---------- */
-  function closeBox() {
-    slot.innerHTML = "";           /* destroys the iframe, stops playback */
-    box.hidden = true;
-    document.body.style.overflow = "";
-    if (lastFocused) { lastFocused.focus(); lastFocused = null; }
-  }
-
-  closeEl.addEventListener("click", closeBox);
-
-  box.addEventListener("click", function (e) {
-    if (e.target === box) closeBox();     /* click the backdrop */
-  });
-
-  document.addEventListener("keydown", function (e) {
-    if (box.hidden) return;
-    if (e.key === "Escape") { closeBox(); return; }
-    if (e.key === "Tab") { e.preventDefault(); closeEl.focus(); }
-  });
-})();
-</script>
-
+<script src="app.js?v=7"></script>
 </body>
 </html>
